@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical College Beds in India &mdash; State Wise Bed Count Explorer | Career Plan B</title>
+    <meta name="description" content="Explore medical college bed counts across India state wise. Compare hospital beds by college, city, and type. Find the best medical colleges by bed capacity before NEET counselling.">
+    <meta property="og:title" content="Medical College Beds in India — State Wise Bed Count | Career Plan B">
+    <meta property="og:description" content="Compare medical college bed counts across Indian states. Government, private, and deemed university hospital beds — all in one searchable explorer.">
+    <meta property="og:type" content="website">
+    <meta name="keywords" content="medical college beds India, hospital beds state wise, medical college bed count, NEET medical college beds, government medical college beds, medical college infrastructure, hospital bed capacity India">
+    <link rel="canonical" href="https://www.careerplanb.co/bed-explorer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=1.0">
+</head>
+<body>
+
+    <!-- NAV -->
+    <header class="site-header" role="banner">
+        <div class="container">
+            <a href="https://www.careerplanb.co" class="logo" aria-label="Career Plan B &mdash; home">Career Plan B</a>
+            <div class="header-tools">
+                <a href="../pg-bond-explorer/" class="header-tool-link">PG Bond Explorer</a>
+                <a href="../mbbs-bond-explorer/" class="header-tool-link">MBBS Bond Explorer</a>
+                <a href="../mbbs-true-cost-calculator/" class="header-tool-link">True Cost Calculator</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header" id="top">
+        <div class="container">
+            <p class="eyebrow">Bed Explorer &mdash; State Wise</p>
+            <h1>Medical College Beds<br>Across India</h1>
+            <p class="header-sub">Hospital bed capacity is a critical factor when choosing a medical college. More beds mean more clinical exposure, better training, and stronger residency preparation. Explore bed counts across government, private, and deemed medical colleges state wise.</p>
+            <p class="header-note">Dummy data for demonstration &nbsp;&middot;&nbsp; Structure ready for real data</p>
+            <a href="#selector" class="header-cta">
+                Explore Beds State Wise
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+            </a>
+        </div>
+    </div>
+
+    <!-- STATE SELECTOR -->
+    <section class="selector-section" id="selector" aria-label="Select a state to explore medical college beds">
+        <div class="container">
+            <h2>Select a State</h2>
+            <p class="selector-sub">Choose a state to view all medical colleges and their bed counts.</p>
+            <div class="selector-wrap">
+                <label for="state-select">State / Union Territory</label>
+                <select id="state-select">
+                    <option value="">Select a state</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="results-section" id="results" aria-label="Medical college bed count results" aria-live="polite">
+        <div class="container">
+            <div class="results-header">
+                <p class="results-eyebrow">Medical College Beds</p>
+                <h2 class="results-state-name" id="results-state-name"></h2>
+            </div>
+
+            <!-- Summary -->
+            <div class="summary-grid" id="summary-grid">
+                <div class="summary-stat">
+                    <div class="summary-stat-label">Total Colleges</div>
+                    <div class="summary-stat-value" id="stat-colleges">0</div>
+                </div>
+                <div class="summary-stat">
+                    <div class="summary-stat-label">Total Beds</div>
+                    <div class="summary-stat-value highlight" id="stat-beds">0</div>
+                </div>
+                <div class="summary-stat">
+                    <div class="summary-stat-label">Government Colleges</div>
+                    <div class="summary-stat-value" id="stat-govt">0</div>
+                </div>
+                <div class="summary-stat">
+                    <div class="summary-stat-label">Private / Deemed</div>
+                    <div class="summary-stat-value" id="stat-private">0</div>
+                </div>
+            </div>
+
+            <!-- Search -->
+            <div class="search-bar">
+                <div class="search-input-wrap">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    <input type="text" class="search-input" id="search-input" placeholder="Search by college name or city..." aria-label="Search colleges">
+                </div>
+            </div>
+
+            <!-- Results count -->
+            <div class="results-count" id="results-count"></div>
+
+            <!-- College Table -->
+            <div class="table-wrapper">
+                <table class="college-table" id="college-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="name">College <span class="sort-icon">&#9650;</span></th>
+                            <th data-sort="city">City <span class="sort-icon">&#9650;</span></th>
+                            <th data-sort="type">Type <span class="sort-icon">&#9650;</span></th>
+                            <th data-sort="beds">Beds <span class="sort-icon">&#9660;</span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="college-tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADVISORY / CTA -->
+    <section class="advisory-section" id="advisory" aria-label="Medical college admission counselling from Career Plan B">
+        <div class="container">
+            <div class="advisory-content">
+
+                <div class="advisory-text">
+                    <p class="eyebrow">Career Plan B &middot; Medical Admission Guidance</p>
+                    <h2>Bed Count Is Just One Factor. We Help You See the Full Picture.</h2>
+                    <p>Hospital bed capacity directly affects your clinical training quality. But choosing the right medical college requires weighing dozens of factors &mdash; faculty strength, speciality availability, bond obligations, fee structure, and placement outcomes.</p>
+                    <ul class="advisory-specifics">
+                        <li><strong>Infrastructure vs. training quality.</strong> A college with 2,000 beds but poor faculty-to-student ratio may offer worse clinical exposure than a 500-bed college with excellent mentorship. Our counsellors help you assess the real training value.</li>
+                        <li><strong>Bond + bed analysis.</strong> Some high-bed government colleges carry harsh service bonds. We help you calculate the true cost of your seat — including bond penalties, opportunity cost, and post-PG career impact.</li>
+                        <li><strong>State-specific insights.</strong> Bed allocation, teaching hospital affiliations, and clinical rotation policies vary dramatically across states. Our team has 16 years of admission counselling experience across every major state.</li>
+                    </ul>
+                    <a href="../pg-bond-explorer/" class="cross-link" style="margin-top: 24px; display: inline-flex;">
+                        Check PG bond obligations
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+
+                <div class="advisory-form-wrap">
+                    <form class="consultation-form" id="strategy-form" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="sf-name">Full Name <span class="req" aria-hidden="true">*</span></label>
+                                <input type="text" id="sf-name" required placeholder="Your name" autocomplete="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="sf-mobile">Mobile <span class="req" aria-hidden="true">*</span></label>
+                                <input type="tel" id="sf-mobile" required placeholder="10-digit number" pattern="[0-9]{10}" autocomplete="tel">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="sf-email">Email <span class="req" aria-hidden="true">*</span></label>
+                                <input type="email" id="sf-email" required placeholder="your@email.com" autocomplete="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="sf-help">What do you need help with?</label>
+                                <select id="sf-help">
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="mbbs-government">Government MBBS</option>
+                                    <option value="mbbs-private">Private MBBS</option>
+                                    <option value="pg-government">Government PG (MD/MS)</option>
+                                    <option value="pg-private">Private PG</option>
+                                    <option value="bond-guidance">Bond Guidance</option>
+                                    <option value="college-selection">College Selection Help</option>
+                                    <option value="unsure">Not Sure Yet</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="cta-primary" id="sf-submit">
+                            <span class="btn-text">Book a Free 15-min Call</span>
+                        </button>
+                        <p class="trust-copy">We contact you only to schedule your call. Your details are never shared with colleges or third parties.</p>
+                    </form>
+
+                    <div class="form-success-message" id="sf-success" style="display: none;" role="status">
+                        <div class="success-icon" aria-hidden="true">&#10003;</div>
+                        <h3>Request received</h3>
+                        <p>One of our counsellors will contact you to schedule your free strategy call.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="https://www.careerplanb.co" class="logo footer-logo">Career Plan B</a>
+                    <p>Education &amp; Career Counselling</p>
+                </div>
+                <div class="footer-disclaimer">
+                    <p><strong>Disclaimer:</strong> The bed count data shown in this explorer is currently placeholder/dummy data for demonstration purposes. Actual bed counts vary by year, accreditation cycle, and institutional reporting. Always verify bed capacity and infrastructure details with the specific college before making admission decisions. This tool is a planning guide, not an official data source.</p>
+                    <p>Last updated: September 2026</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="explorer.js?v=1.0"></script>
+</body>
+</html>

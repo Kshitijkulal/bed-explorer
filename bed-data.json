@@ -1,1633 +1,15 @@
 {
   "states": [
     {
-      "id": "himachal-pradesh",
-      "name": "Himachal Pradesh",
-      "total_colleges": 3,
-      "total_beds": 2359,
+      "id": "andaman-and-nicobar-islands",
+      "name": "Andaman and Nicobar Islands",
+      "total_colleges": 1,
+      "total_beds": 545,
       "colleges": [
         {
-          "name": "Dr Rajendra Prasad Government Medical College",
-          "city": "Tanda",
-          "beds": 828,
-          "type": "Government"
-        },
-        {
-          "name": "Indira Gandhi Medical College",
-          "city": "Shimla",
-          "beds": 1031,
-          "type": "Private"
-        },
-        {
-          "name": "Shri Lal Bahadur Shastri Government Medical College",
-          "city": "Mandi",
-          "beds": 500,
-          "type": "Government"
-        }
-      ]
-    },
-    {
-      "id": "karnataka",
-      "name": "Karnataka",
-      "total_colleges": 35,
-      "total_beds": 23995,
-      "colleges": [
-        {
-          "name": "Bangalore Medical College and Research Institute",
-          "city": "Bangalore",
-          "beds": 1993,
-          "type": "Private"
-        },
-        {
-          "name": "Mysore Medical College and Research Institute, Mysore (Prev. Government Medical College",
-          "city": "Mysore)",
-          "beds": 1050,
-          "type": "Government"
-        },
-        {
-          "name": "Employees State Insurance Corporation Medical College",
-          "city": "Bangalore",
-          "beds": 530,
-          "type": "Private"
-        },
-        {
-          "name": "Karnataka Institute of Medical Sciences",
-          "city": "Hubballi",
-          "beds": 1200,
-          "type": "Private"
-        },
-        {
-          "name": "Mandya Institute of Medical Sciences",
-          "city": "Mandya",
-          "beds": 910,
-          "type": "Private"
-        },
-        {
-          "name": "Shri Atal Bihari Vajpayee Medical College & Research Institute",
-          "city": "Bengaluru",
-          "beds": 956,
-          "type": "Private"
-        },
-        {
-          "name": "Vijaynagar Institute of Medical Sciences",
-          "city": "Bellary",
-          "beds": 1295,
-          "type": "Private"
-        },
-        {
-          "name": "Hassan Institute of Medical Sciences",
-          "city": "Hassan",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "Shimoga Institute of Medical Sciences",
-          "city": "Shimoga",
-          "beds": 950,
-          "type": "Private"
-        },
-        {
-          "name": "Belagavi Institute of Medical Sciences",
-          "city": "Belagavi",
-          "beds": 1000,
-          "type": "Private"
-        },
-        {
-          "name": "Narayana Hrudayalaya Hospital, Bommasandra, Bangalore",
-          "city": "Karnataka-560099",
-          "beds": 2000,
-          "type": "Private"
-        },
-        {
-          "name": "Manipal Hospital, Rustum Bagh, Bangalore",
-          "city": "Karnataka-560017",
-          "beds": 600,
-          "type": "Private"
-        },
-        {
-          "name": "Sanjay Gandhi Institute of Trauma and Orthopaedics",
-          "city": "Bangalore",
-          "beds": 180,
-          "type": "Private"
-        },
-        {
-          "name": "Gulbarga Institute of Medical Sciences",
-          "city": "Gulbarga",
-          "beds": 873,
-          "type": "Private"
-        },
-        {
-          "name": "Bangalore Baptist Hospital, Bangalore",
-          "city": "Karnataka-560024",
-          "beds": 450,
-          "type": "Private"
-        },
-        {
-          "name": "Indira Gandhi Institute of Child Health",
-          "city": "Bangalore",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "KH Patil Institute of Medical Sciences, Mallasamudra, Mulgund Road",
-          "city": "Gadag (Prev. Gadag Institute of Medical Sciences)",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "Aster CMI Hospital, Bangalore",
-          "city": "Karnataka-560092",
-          "beds": 509,
-          "type": "Private"
-        },
-        {
-          "name": "Kidwai Memorial Institute of Oncology",
-          "city": "Bangalore",
-          "beds": 680,
-          "type": "Private"
-        },
-        {
-          "name": "Raichur Institute of Medical Sciences",
-          "city": "Raichur",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Manipal Hospital Whitefield, Whitefield, Bengaluru",
-          "city": "Karnataka-560066",
-          "beds": 287,
-          "type": "Private"
-        },
-        {
-          "name": "Apollo BGS Hospital, Mysore",
-          "city": "Karnataka-570023",
-          "beds": 215,
-          "type": "Private"
-        },
-        {
-          "name": "Apollo Hospital, Bannerghatta Road, Bangalore",
-          "city": "Karnataka-560076",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "Koppal Institute of Medical Sciences Koppal",
-          "city": "Karnataka",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "Nandi Medical College and Research Institute (Chikkaballapura Institute of Medical Sciences)",
-          "city": "Chikkaballapur",
-          "beds": 360,
-          "type": "Private"
-        },
-        {
-          "name": "Bidar Institute of Medical Sciences",
-          "city": "Bidar",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "St Philomena`s Hospital, Bangalore",
-          "city": "Karnataka-560047",
-          "beds": 371,
-          "type": "Private"
-        },
-        {
-          "name": "Kasturba Medical College",
-          "city": "Manipal",
-          "beds": 2032,
-          "type": "Private"
-        },
-        {
-          "name": "Chamrajanagar Institute of Medical Sciences",
-          "city": "Karnataka",
-          "beds": 750,
-          "type": "Private"
-        },
-        {
-          "name": "Karwar Institute of Medical Sciences",
-          "city": "Karwar",
-          "beds": 650,
-          "type": "Private"
-        },
-        {
-          "name": "Sakra World Hospital, Bangalore",
-          "city": "Karnataka-560103",
-          "beds": 300,
-          "type": "Private"
-        },
-        {
-          "name": "Kodagu Institute of Medical Sciences",
-          "city": "Kodagu",
-          "beds": 600,
-          "type": "Private"
-        },
-        {
-          "name": "Fortis Hospital, Bannerghatta Road, Bangalore",
-          "city": "Karnataka-560076",
-          "beds": 400,
-          "type": "Private"
-        },
-        {
-          "name": "Sri Shankara Cancer Hospital and Research centre, Bangalore",
-          "city": "Karnataka-560004",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "St Martha`s Hospital, Bangalore",
-          "city": "Karnataka-560001",
-          "beds": 504,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "madhya-pradesh",
-      "name": "Madhya Pradesh",
-      "total_colleges": 16,
-      "total_beds": 9306,
-      "colleges": [
-        {
-          "name": "Gajra Raja Medical College",
-          "city": "Gwalior",
-          "beds": 1100,
-          "type": "Private"
-        },
-        {
-          "name": "Gandhi Medical College",
-          "city": "Bhopal",
-          "beds": 1135,
-          "type": "Private"
-        },
-        {
-          "name": "MGM Medical College",
-          "city": "Indore",
-          "beds": 1300,
-          "type": "Private"
-        },
-        {
-          "name": "Shyam Shah Medical College",
-          "city": "Rewa",
-          "beds": 1140,
-          "type": "Private"
-        },
-        {
-          "name": "Netaji Subhash Chandra Bose Medical College",
-          "city": "Jabalpur",
-          "beds": 1150,
-          "type": "Private"
-        },
-        {
-          "name": "Choithram Hospital and Research Centre, Manik Bagh Road, Indore",
-          "city": "Madhya Pradesh-452014",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "Bombay Hospital, Indore",
-          "city": "Madhya Pradesh-452010",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "CHL Hospital, Indore",
-          "city": "Madhya Pradesh-452008",
-          "beds": 200,
-          "type": "Private"
-        },
-        {
-          "name": "Vishesh Jupiter Hospital, Sector 1, Indore",
-          "city": "Madhya Pradesh-452020",
-          "beds": 200,
-          "type": "Private"
-        },
-        {
-          "name": "Bundelkhand Medical College",
-          "city": "Sagar",
-          "beds": 750,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College",
-          "city": "Datia",
-          "beds": 540,
-          "type": "Government"
-        },
-        {
-          "name": "Sri Aurobindo Medical College and Post Graduate Institute (SAIMS Hospital), Sanwer Road, Indore",
-          "city": "Madhya Pradesh-453555",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "Dr Laxminarayan Pandey Government Medical College",
-          "city": "Ratlam",
-          "beds": 300,
-          "type": "Government"
-        },
-        {
-          "name": "Bansal Hospital, Shahpura, Bhopal",
-          "city": "Madhya Pradesh-462016",
-          "beds": 301,
-          "type": "Private"
-        },
-        {
-          "name": "Shalby Hospital, RS Bhandari Marg, Indore",
-          "city": "Madhya Pradesh-452003",
-          "beds": 190,
-          "type": "Private"
-        },
-        {
-          "name": "Atal Bihari Vajpayee Government Medical College",
-          "city": "Vidisha",
-          "beds": 300,
-          "type": "Government"
-        }
-      ]
-    },
-    {
-      "id": "maharashtra",
-      "name": "Maharashtra",
-      "total_colleges": 63,
-      "total_beds": 38638,
-      "colleges": [
-        {
-          "name": "Government Medical College, Chhatrapati Sambhaji Nagar",
-          "city": "Aurangabad",
-          "beds": 1177,
-          "type": "Government"
-        },
-        {
-          "name": "Topiwala National Medical College",
-          "city": "Mumbai",
-          "beds": 1300,
-          "type": "Private"
-        },
-        {
-          "name": "Seth GS Medical College",
-          "city": "Mumbai",
-          "beds": 2250,
-          "type": "Private"
-        },
-        {
-          "name": "Lokmanya Tilak Municipal Medical College, Sion",
-          "city": "Mumbai",
-          "beds": 1462,
-          "type": "Private"
-        },
-        {
-          "name": "Grant Medical College",
-          "city": "Mumbai",
-          "beds": 2844,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College",
-          "city": "Nagpur",
-          "beds": 1866,
-          "type": "Government"
-        },
-        {
-          "name": "Tata Memorial centre",
-          "city": "Mumbai",
-          "beds": 614,
-          "type": "Private"
-        },
-        {
-          "name": "BJ Government Medical College",
-          "city": "Pune",
-          "beds": 1296,
-          "type": "Government"
-        },
-        {
-          "name": "PD Hinduja National Hospital and Medical Research Centre, Mumbai",
-          "city": "Maharashtra-400016",
-          "beds": 400,
-          "type": "Private"
-        },
-        {
-          "name": "Indira Gandhi Medical College & Hospital",
-          "city": "Nagpur",
-          "beds": 822,
-          "type": "Private"
-        },
-        {
-          "name": "Pimpri Chinchwad Municipal Corporation PG Institute",
-          "city": "Pimpri",
-          "beds": 750,
-          "type": "Private"
-        },
-        {
-          "name": "Kokilaben Dhirubhai Ambani Hospital and Medical Research Institute, Mumbai",
-          "city": "Maharashtra-400053",
-          "beds": 550,
-          "type": "Private"
-        },
-        {
-          "name": "Bhabha Atomic Research Centre",
-          "city": "Mumbai",
-          "beds": 390,
-          "type": "Private"
-        },
-        {
-          "name": "Sir Hurkisondas Nurrotumdas Hospital and Research Centre, Mumbai",
-          "city": "Maharashtra-400004",
-          "beds": 360,
-          "type": "Private"
-        },
-        {
-          "name": "Jaslok Hospital and Research Centre, Mumbai",
-          "city": "Maharashtra-400026",
-          "beds": 361,
-          "type": "Private"
-        },
-        {
-          "name": "HBT Medical College & Dr RN Cooper Municipal General Hospital, Juhu",
-          "city": "Mumbai",
-          "beds": 940,
-          "type": "Private"
-        },
-        {
-          "name": "Deenanath Mangeshkar Hospital and Research Centre, Pune",
-          "city": "Maharashtra-411004",
-          "beds": 876,
-          "type": "Private"
-        },
-        {
-          "name": "Lilavati Hospital and Research Centre, Mumbai",
-          "city": "Maharashtra-400050",
-          "beds": 330,
-          "type": "Private"
-        },
-        {
-          "name": "Seth VC Gandhi & MA Vora Municipal General Hospital (Rajawadi Hospital), Ghatkopar East, Mumbai",
-          "city": "Maharashtra-400077",
-          "beds": 596,
-          "type": "Private"
-        },
-        {
-          "name": "KJ Somaiya Medical College, Mumbai",
-          "city": "Maharashtra-400022",
-          "beds": 520,
-          "type": "Private"
-        },
-        {
-          "name": "Holy Spirit Hospital, Mumbai",
-          "city": "Maharashtra-400093",
-          "beds": 300,
-          "type": "Private"
-        },
-        {
-          "name": "Mahatma Gandhi Institute of Medical Sciences, Sevagram",
-          "city": "Wardha",
-          "beds": 1000,
-          "type": "Private"
-        },
-        {
-          "name": "Jupiter Hospital, Thane",
-          "city": "Maharashtra-400601",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "Breach Candy Hospital, Mumbai",
-          "city": "Maharashtra-400026",
-          "beds": 213,
-          "type": "Private"
-        },
-        {
-          "name": "Rajarshee Chhatrapati Shahu Maharaj Government Medical College",
-          "city": "Kolhapur",
-          "beds": 665,
-          "type": "Government"
-        },
-        {
-          "name": "Ruby Hall Clinic, Pune",
-          "city": "Maharashtra-411001",
-          "beds": 600,
-          "type": "Private"
-        },
-        {
-          "name": "Dr Vaishampayan Memorial Medical College",
-          "city": "Solapur",
-          "beds": 763,
-          "type": "Private"
-        },
-        {
-          "name": "Fortis Hospital, Mulund, Mumbai",
-          "city": "Maharashtra-400078",
-          "beds": 440,
-          "type": "Private"
-        },
-        {
-          "name": "Bhabha Atomic Research Centre and Hospital, Mumbai",
-          "city": "Maharashtra-400094",
-          "beds": 390,
-          "type": "Private"
-        },
-        {
-          "name": "Rajiv Gandhi Medical College and Chhatrapati Shivaji Maharaj Hospital",
-          "city": "Thane",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College and Maharashtra Post Graduate Institute of Medical Education and Research",
-          "city": "Nashik",
-          "beds": 560,
-          "type": "Government"
-        },
-        {
-          "name": "Poona Hospital and Research Centre, Pune",
-          "city": "Maharashtra-411030",
-          "beds": 300,
-          "type": "Private"
-        },
-        {
-          "name": "Dr Shankarrao Chavan Government Medical College",
-          "city": "Nanded",
-          "beds": 750,
-          "type": "Government"
-        },
-        {
-          "name": "Dr B Nanavati Hospital, Mumbai",
-          "city": "Maharashtra-400056",
-          "beds": 348,
-          "type": "Private"
-        },
-        {
-          "name": "Jehangir Hospital, Pune",
-          "city": "Maharashtra-411001",
-          "beds": 335,
-          "type": "Private"
-        },
-        {
-          "name": "Apollo Hospital, Navi Mumbai",
-          "city": "Maharashtra-400614",
-          "beds": 473,
-          "type": "Private"
-        },
-        {
-          "name": "Saifee Hospital, Mumbai",
-          "city": "Maharashtra-400004",
-          "beds": 257,
-          "type": "Private"
-        },
-        {
-          "name": "KEM Hospital, Pune",
-          "city": "Maharashtra-411011",
-          "beds": 568,
-          "type": "Private"
-        },
-        {
-          "name": "SRTR Medical College",
-          "city": "Ambajogai",
-          "beds": 518,
-          "type": "Private"
-        },
-        {
-          "name": "Shri Vasantrao Naik Government Medical College",
-          "city": "Yavatmal",
-          "beds": 756,
-          "type": "Government"
-        },
-        {
-          "name": "Postgraduate Institute of Medical Sciences (PGIMS)",
-          "city": "Navi Mumbai",
-          "beds": 580,
-          "type": "Private"
-        },
-        {
-          "name": "Sahyadri Super Specialty Hospital, Karve Road, Pune",
-          "city": "Maharashtra-411004",
-          "beds": 225,
-          "type": "Private"
-        },
-        {
-          "name": "Dr RN Cooper Municipal General Hospital, Mumbai",
-          "city": "Maharashtra-400056",
-          "beds": 940,
-          "type": "Private"
-        },
-        {
-          "name": "Wockhardt Hospital, Central Mumbai",
-          "city": "Maharashtra-400011",
-          "beds": 320,
-          "type": "Private"
-        },
-        {
-          "name": "Bai Jerbai Wadia Hospital for Children, Mumbai",
-          "city": "Maharashtra-400012",
-          "beds": 525,
-          "type": "Private"
-        },
-        {
-          "name": "Holy Family Hospital, Mumbai",
-          "city": "Maharashtra-400050",
-          "beds": 268,
-          "type": "Private"
-        },
-        {
-          "name": "MGM New Bombay Hospital, Navi Mumbai",
-          "city": "Maharashtra-400703",
-          "beds": 400,
-          "type": "Private"
-        },
-        {
-          "name": "BharatRatna Dr Babasaheb Ambedkar Municipal General Hospital, Kandivali (West), Mumbai",
-          "city": "Maharashtra-400067",
-          "beds": 444,
-          "type": "Private"
-        },
-        {
-          "name": "Sadhu Vaswani Missions Medical Complex, Pune",
-          "city": "Maharashtra-411001",
-          "beds": 430,
-          "type": "Private"
-        },
-        {
-          "name": "Jupiter Lifeline Hospital, Pune",
-          "city": "Maharashtra-411045",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "Dr Hedgewar Rugnalaya, Aurangabad",
-          "city": "Maharashtra-431005",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Manipal Hospitals, Baner, Pune",
-          "city": "Maharashtra-411045",
-          "beds": 202,
-          "type": "Private"
-        },
-        {
-          "name": "Sri Bhausaheb Hire Government Medical College",
-          "city": "Dhule",
+          "name": "Andaman and Nicobar Islands Institute of Medical Science, Port Blair",
+          "city": "Andaman And Nicobar Islands-744104",
           "beds": 545,
-          "type": "Government"
-        },
-        {
-          "name": "Hiranandani Hospital (Fortis), Vashi, Navi Mumbai",
-          "city": "Maharashtra-400703",
-          "beds": 150,
-          "type": "Private"
-        },
-        {
-          "name": "Ashoka Medicover Hospital, Nashik",
-          "city": "Maharashtra-422009",
-          "beds": 225,
-          "type": "Private"
-        },
-        {
-          "name": "Noble Hospital, Pune",
-          "city": "Maharashtra-411028",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "Dr Babasaheb Ambedkar Central Railway Hospital, Mumbai",
-          "city": "Maharashtra-400027",
-          "beds": 366,
-          "type": "Private"
-        },
-        {
-          "name": "Apple Saraswati Multispecialty Hospital, Kolhapur",
-          "city": "Maharashtra-416003",
-          "beds": 200,
-          "type": "Private"
-        },
-        {
-          "name": "Aditya Birla Memorial Hospital, Pune",
-          "city": "Maharashtra-411033",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Asian Institute of Medical Sciences, Dombivli (E)",
-          "city": "Maharashtra-421203",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "Shri Vasant Rao Naik Government Medical College, Yavatmal",
-          "city": "Maharashtra-445001",
-          "beds": 794,
-          "type": "Government"
-        },
-        {
-          "name": "Bhaktivedanta Hospital and Research Institute, Thane",
-          "city": "Maharashtra-401107",
-          "beds": 200,
-          "type": "Private"
-        },
-        {
-          "name": "KIMS - Kingsway Hospitals, (A Unit of SPANV Medisearch Lifesciences Pvt Ltd), Nagpur, Maharashtra-440001 (Prev. Kingsway Hospitals",
-          "city": "Nagpur)",
-          "beds": 334,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "rajasthan",
-      "name": "Rajasthan",
-      "total_colleges": 14,
-      "total_beds": 18863,
-      "colleges": [
-        {
-          "name": "SMS Medical College",
-          "city": "Jaipur",
-          "beds": 5702,
-          "type": "Private"
-        },
-        {
-          "name": "Dr SN Medical College",
-          "city": "Jodhpur",
-          "beds": 3101,
-          "type": "Private"
-        },
-        {
-          "name": "RNT Medical College",
-          "city": "Udaipur",
-          "beds": 2206,
-          "type": "Private"
-        },
-        {
-          "name": "Sardar Patel Medical College",
-          "city": "Bikaner",
-          "beds": 1570,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College",
-          "city": "Kota",
-          "beds": 2581,
-          "type": "Government"
-        },
-        {
-          "name": "Jawaharlal Nehru Medical College",
-          "city": "Ajmer",
-          "beds": 1428,
-          "type": "Private"
-        },
-        {
-          "name": "Santokbha Durlabhji Memorial Hospital Cum Medical Research Institute, Jaipur",
-          "city": "Rajasthan-302015",
-          "beds": 525,
-          "type": "Private"
-        },
-        {
-          "name": "RUHS College of Medical Sciences",
-          "city": "Jaipur",
-          "beds": 300,
-          "type": "Private"
-        },
-        {
-          "name": "Manipal Hospital, Jaipur",
-          "city": "Rajasthan-302013",
-          "beds": 225,
-          "type": "Private"
-        },
-        {
-          "name": "Rukmani Birla Hospital, Jaipur",
-          "city": "Rajasthan-302018",
-          "beds": 230,
-          "type": "Private"
-        },
-        {
-          "name": "Jhalawar Medical College",
-          "city": "Jhalawar",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "Eternal Heart Care Centre and Research Institute, Jaipur",
-          "city": "Rajasthan-302017",
-          "beds": 225,
-          "type": "Private"
-        },
-        {
-          "name": "Mahavir Jaipuriya Rajasthan Hospital, Milap Nagar, Jaipur",
-          "city": "Rajasthan-302018",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "ESIC Medical College and Hospital, Desula, Mia, Alwar",
-          "city": "Rajasthan-301030",
-          "beds": 420,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "uttar-pradesh",
-      "name": "Uttar Pradesh",
-      "total_colleges": 34,
-      "total_beds": 25462,
-      "colleges": [
-        {
-          "name": "Institute of Medical Sciences, BHU",
-          "city": "Varanasi",
-          "beds": 2424,
-          "type": "Private"
-        },
-        {
-          "name": "Jawaharlal Nehru Medical College",
-          "city": "Aligarh",
-          "beds": 1269,
-          "type": "Private"
-        },
-        {
-          "name": "Sanjay Gandhi Postgraduate Institute of Medical Sciences",
-          "city": "Lucknow",
-          "beds": 1609,
-          "type": "Private"
-        },
-        {
-          "name": "King George Medical University",
-          "city": "Lucknow",
-          "beds": 4500,
-          "type": "Private"
-        },
-        {
-          "name": "Dr Ram Manohar Lohia Institute of Medical Sciences",
-          "city": "Lucknow",
-          "beds": 1368,
-          "type": "Private"
-        },
-        {
-          "name": "Moti Lal Nehru Medical College",
-          "city": "Allahabad",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "SN Medical College",
-          "city": "Agra",
-          "beds": 976,
-          "type": "Private"
-        },
-        {
-          "name": "Maharani Laxmi Bai Medical College",
-          "city": "Jhansi",
-          "beds": 700,
-          "type": "Private"
-        },
-        {
-          "name": "Shaikh-UL-Hind Maulana Mahmood Hasan Medical College",
-          "city": "Saharanpur",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Homi Bhabha Cancer Hospital, Varanasi",
-          "city": "Uttar Pradesh",
-          "beds": 531,
-          "type": "Private"
-        },
-        {
-          "name": "Apollomedics Superspeciality Hospital, Lucknow",
-          "city": "Uttar Pradesh-226012",
-          "beds": 300,
-          "type": "Private"
-        },
-        {
-          "name": "BRD Medical College",
-          "city": "Gorakhpur",
-          "beds": 1050,
-          "type": "Private"
-        },
-        {
-          "name": "Government Institute of Medical Sciences, Greater Noida",
-          "city": "Uttar Pradesh-201310",
-          "beds": 500,
-          "type": "Government"
-        },
-        {
-          "name": "Yatharth Super Specialty Hospitals, Sector Omega 01, Greater Noida",
-          "city": "Uttar Pradesh-201308",
-          "beds": 400,
-          "type": "Private"
-        },
-        {
-          "name": "Medanta Hospital, Sec A Pocket 1, Sushant Golf City, Lucknow",
-          "city": "Uttar Pradesh-226030",
-          "beds": 900,
-          "type": "Private"
-        },
-        {
-          "name": "LLRM Medical College",
-          "city": "Meerut",
-          "beds": 1090,
-          "type": "Private"
-        },
-        {
-          "name": "GSVM Medical College",
-          "city": "Kanpur",
-          "beds": 2083,
-          "type": "Private"
-        },
-        {
-          "name": "Yashoda Super Specialty Hospitals, Ghaziabad",
-          "city": "Uttar Pradesh-201001",
-          "beds": 310,
-          "type": "Private"
-        },
-        {
-          "name": "Max Super Speciality Hospital, Noida, Uttar Pradesh-201304 (Prev. Jaypee Hospital",
-          "city": "Noida)",
-          "beds": 504,
-          "type": "Private"
-        },
-        {
-          "name": "Yatharth Superspeciality Hospitals, Sector 01, Greater Noida West",
-          "city": "Uttar Pradesh-201306",
-          "beds": 450,
-          "type": "Private"
-        },
-        {
-          "name": "Yashoda Super Speciality Hospital, Ghaziabad",
-          "city": "Uttar Pradesh-201010",
-          "beds": 300,
-          "type": "Private"
-        },
-        {
-          "name": "Government Institute of Medical Sciences, Kasna",
-          "city": "Greater Noida",
-          "beds": 500,
-          "type": "Government"
-        },
-        {
-          "name": "Kailash Hospital & Heart Institute, Sector 27, Noida",
-          "city": "Uttar Pradesh-201301",
-          "beds": 325,
-          "type": "Private"
-        },
-        {
-          "name": "Max Super Speciality Hospital, Gomti Nagar, Lucknow, Uttar Pradesh-226010 (A Unit of Starlit Medical Centre Pvt Ltd), (Prev. Sahara India Medical Institute Limited, Gomti Nagar",
-          "city": "Lucknow)",
-          "beds": 299,
-          "type": "Private"
-        },
-        {
-          "name": "Kailash Hospital Neuro Institute, Sector 71, Noida",
-          "city": "Uttar Pradesh-201309",
-          "beds": 200,
-          "type": "Private"
-        },
-        {
-          "name": "Neo Hospital, Sector 50, Noida",
-          "city": "Uttar Pradesh-201301",
-          "beds": 220,
-          "type": "Private"
-        },
-        {
-          "name": "Vivekananda Polyclinic and Institute of Medical Sciences, Lucknow",
-          "city": "Uttar Pradesh-226007",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "Chandan Hospital, Lucknow",
-          "city": "Uttar Pradesh-226010",
-          "beds": 203,
-          "type": "Private"
-        },
-        {
-          "name": "Regency Hospital, Kanpur",
-          "city": "Uttar Pradesh-208005",
-          "beds": 215,
-          "type": "Private"
-        },
-        {
-          "name": "Heritage Hospital Pvt Ltd, Madhav Market Lanka, Varanasi",
-          "city": "Uttar Pradesh-221005",
-          "beds": 150,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College",
-          "city": "Faizabad",
-          "beds": 300,
-          "type": "Government"
-        },
-        {
-          "name": "Autonomous State Medical College, Ayodhya",
-          "city": "Uttar Pradesh-224133",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Rajkiya Medical College",
-          "city": "Jalaun",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "Max Super Specialty Hospital, Ghaziabad",
-          "city": "Uttar Pradesh-201012",
-          "beds": 436,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "uttarakhand",
-      "name": "Uttarakhand",
-      "total_colleges": 4,
-      "total_beds": 2624,
-      "colleges": [
-        {
-          "name": "Doon Medical College",
-          "city": "Dehradun",
-          "beds": 750,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College",
-          "city": "Haldwani)",
-          "beds": 600,
-          "type": "Government"
-        },
-        {
-          "name": "VCSG Government Institute of Medical Science and Research and HNB Base Teaching Hospital, Pauri Garhwal",
-          "city": "Uttarakhand-246174",
-          "beds": 774,
-          "type": "Government"
-        },
-        {
-          "name": "Soban Singh Jeena Government Institute of Medical Science & Research",
-          "city": "Almora",
-          "beds": 500,
-          "type": "Government"
-        }
-      ]
-    },
-    {
-      "id": "west-bengal",
-      "name": "West Bengal",
-      "total_colleges": 22,
-      "total_beds": 21351,
-      "colleges": [
-        {
-          "name": "Institute of Postgraduate Medical Education & Research",
-          "city": "Kolkata",
-          "beds": 2300,
-          "type": "Private"
-        },
-        {
-          "name": "Nilratan Sircar Medical College",
-          "city": "Kolkata",
-          "beds": 1920,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College",
-          "city": "Kolkata",
-          "beds": 2668,
-          "type": "Government"
-        },
-        {
-          "name": "Chittaranjan National Cancer Institute",
-          "city": "Kolkata",
-          "beds": 670,
-          "type": "Private"
-        },
-        {
-          "name": "RG Kar Medical College",
-          "city": "Kolkata",
-          "beds": 1663,
-          "type": "Private"
-        },
-        {
-          "name": "Calcutta National Medical College",
-          "city": "Kolkata",
-          "beds": 1470,
-          "type": "Private"
-        },
-        {
-          "name": "Employees State Insurance Corporation Medical College, Joka",
-          "city": "Kolkata",
-          "beds": 470,
-          "type": "Private"
-        },
-        {
-          "name": "Burdwan Medical College",
-          "city": "Burdwan",
-          "beds": 1099,
-          "type": "Private"
-        },
-        {
-          "name": "Apollo Gleneagles Hospital, Kolkata",
-          "city": "West Bengal-700054",
-          "beds": 750,
-          "type": "Private"
-        },
-        {
-          "name": "Midnapore Medical College",
-          "city": "Midnapore",
-          "beds": 1051,
-          "type": "Private"
-        },
-        {
-          "name": "North Bengal Medical College",
-          "city": "Darjeeling",
-          "beds": 843,
-          "type": "Private"
-        },
-        {
-          "name": "Bankura Sammilani Medical College",
-          "city": "Bankura",
-          "beds": 1441,
-          "type": "Private"
-        },
-        {
-          "name": "College of Medicine and Sagore Dutta Hospital",
-          "city": "Kolkata",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Malda Medical College & Hospital",
-          "city": "Malda",
-          "beds": 700,
-          "type": "Private"
-        },
-        {
-          "name": "Rabindranath Tagore International Institute of Cardiac Sciences, Kolkata",
-          "city": "West Bengal-700099",
-          "beds": 681,
-          "type": "Private"
-        },
-        {
-          "name": "BR Singh Hospital and Centre for Medical Education and Research, Kolkata",
-          "city": "West Bengal-700014",
-          "beds": 525,
-          "type": "Private"
-        },
-        {
-          "name": "Manipal Hospitals EM Bypass, Kolkata, West Bengal-700099 (Prev. Medica Superspecialty Hospital",
-          "city": "Kolkata)",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Peerless Hospital and BK Roy Research Centre, Kolkata",
-          "city": "West Bengal-700094",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "College of Medicine and JNM Hospital, Nadia",
-          "city": "West Bengal-741235",
-          "beds": 550,
-          "type": "Private"
-        },
-        {
-          "name": "The Calcutta Medical Research Institute, Kolkata",
-          "city": "West Bengal-700027",
-          "beds": 440,
-          "type": "Private"
-        },
-        {
-          "name": "School of Tropical Medicine",
-          "city": "Kolkata",
-          "beds": 173,
-          "type": "Private"
-        },
-        {
-          "name": "Tata Medical Center, Kolkata",
-          "city": "West Bengal-700160",
-          "beds": 437,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "bihar",
-      "name": "Bihar",
-      "total_colleges": 10,
-      "total_beds": 7757,
-      "colleges": [
-        {
-          "name": "Patna Medical College",
-          "city": "Patna",
-          "beds": 1748,
-          "type": "Private"
-        },
-        {
-          "name": "Indira Gandhi Institute of Medical Sciences, Sheikhpura",
-          "city": "Patna",
-          "beds": 1170,
-          "type": "Private"
-        },
-        {
-          "name": "Nalanda Medical College",
-          "city": "Patna",
-          "beds": 750,
-          "type": "Private"
-        },
-        {
-          "name": "Darbhanga Medical College",
-          "city": "Lehriasarai",
-          "beds": 1030,
-          "type": "Private"
-        },
-        {
-          "name": "Jayprabha Medanta Superspeciality Hospital, Kankarbagh Colony, Patna",
-          "city": "Bihar-800020",
-          "beds": 330,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College",
-          "city": "Bettiah",
-          "beds": 470,
-          "type": "Government"
-        },
-        {
-          "name": "Ruban Memorial Hospital, Patna",
-          "city": "Bihar-800013",
-          "beds": 450,
-          "type": "Private"
-        },
-        {
-          "name": "Paras HMRI Hospital, Patna",
-          "city": "Bihar-800014",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "Jawaharlal Nehru Medical College",
-          "city": "Bhagalpur",
-          "beds": 800,
-          "type": "Private"
-        },
-        {
-          "name": "Jawaharlal Nehru Medical College and Hospital, Mayaganj Bhagalpur",
-          "city": "Bihar-812001",
-          "beds": 659,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "delhi",
-      "name": "Delhi",
-      "total_colleges": 36,
-      "total_beds": 20833,
-      "colleges": [
-        {
-          "name": "Atal Bihari Vajpayee Institute of Medical Sciences and Dr RML Hospital, New Delhi (Prev. PGIMER Dr RML Hospital",
-          "city": "New Delhi)",
-          "beds": 1626,
-          "type": "Private"
-        },
-        {
-          "name": "Vardhman Mahavir Medical College & Safdarjung Hospital",
-          "city": "Delhi",
-          "beds": 1550,
-          "type": "Private"
-        },
-        {
-          "name": "Maulana Azad Medical College",
-          "city": "New Delhi",
-          "beds": 2800,
-          "type": "Private"
-        },
-        {
-          "name": "Lady Hardinge Medical College",
-          "city": "New Delhi",
-          "beds": 877,
-          "type": "Private"
-        },
-        {
-          "name": "University College of Medical Sciences & GTB Hospital",
-          "city": "New Delhi",
-          "beds": 1000,
-          "type": "Private"
-        },
-        {
-          "name": "GB Pant Institute of Postgraduate Medical Education and Research",
-          "city": "New Delhi",
-          "beds": 714,
-          "type": "Private"
-        },
-        {
-          "name": "Sir Ganga Ram Hospital",
-          "city": "Delhi-110060",
-          "beds": 737,
-          "type": "Private"
-        },
-        {
-          "name": "Indian Railway Post Graduate Institute of Medical Sciences and Research (Associated Northern Railway Central Hospital)",
-          "city": "New Delhi",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "ESI-PGIMSR, ESI-Hospital, Basaidarapur",
-          "city": "New Delhi",
-          "beds": 600,
-          "type": "Private"
-        },
-        {
-          "name": "Holy Family Hospital",
-          "city": "Delhi-110025",
-          "beds": 345,
-          "type": "Private"
-        },
-        {
-          "name": "Max Super Specialty Hospital, 1,2, Press Enclave Road, Saket",
-          "city": "Delhi-110017",
-          "beds": 539,
-          "type": "Private"
-        },
-        {
-          "name": "St Stephen`s Hospital",
-          "city": "Delhi-110054",
-          "beds": 595,
-          "type": "Private"
-        },
-        {
-          "name": "Indraprastha Apollo Hospital",
-          "city": "Delhi-110076",
-          "beds": 750,
-          "type": "Private"
-        },
-        {
-          "name": "Batra Hospital and Medical Research Centre",
-          "city": "Delhi-110062",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Dr Baba Saheb Ambedkar Hospital",
-          "city": "Delhi-110085",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Hindu Rao Hospital",
-          "city": "Delhi-110007",
-          "beds": 980,
-          "type": "Private"
-        },
-        {
-          "name": "Deen Dayal Upadhyay Hospital",
-          "city": "Delhi-110064",
-          "beds": 640,
-          "type": "Private"
-        },
-        {
-          "name": "Aakash Healthcare Super Specialty Hospital, Dwarka",
-          "city": "Delhi-110075",
-          "beds": 200,
-          "type": "Private"
-        },
-        {
-          "name": "Dr BL Kapur Memorial Hospital",
-          "city": "Delhi-110005",
-          "beds": 600,
-          "type": "Private"
-        },
-        {
-          "name": "Swami Dayanand Hospital",
-          "city": "Delhi-110095",
-          "beds": 370,
-          "type": "Private"
-        },
-        {
-          "name": "Mahajan Imaging and Labs, Safdarjung Development Area, New Delhi-110016 (Joint Programme with Sir Ganga Ram Hospital",
-          "city": "Safdarjung as Secondary Hospital)",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "Human Care Medical Charitable Trust, Dwarka",
-          "city": "Delhi-110075",
-          "beds": 380,
-          "type": "Private"
-        },
-        {
-          "name": "Rajiv Gandhi Cancer Institute and Research Centre",
-          "city": "Delhi-110085",
-          "beds": 498,
-          "type": "Private"
-        },
-        {
-          "name": "Max Super Specialty Hospital, Shalimar Bagh",
-          "city": "Delhi-110088",
-          "beds": 402,
-          "type": "Private"
-        },
-        {
-          "name": "Shri Balaji Action Medical Institute",
-          "city": "Delhi-110063",
-          "beds": 275,
-          "type": "Private"
-        },
-        {
-          "name": "Max Super Specialty Hospital, Patparganj",
-          "city": "Delhi-110092",
-          "beds": 402,
-          "type": "Private"
-        },
-        {
-          "name": "Chacha Nehru Bal Chikitsalaya",
-          "city": "Delhi",
-          "beds": 221,
-          "type": "Private"
-        },
-        {
-          "name": "Dharamshila Narayana Superspeciality Hospital",
-          "city": "Delhi-110096",
-          "beds": 200,
-          "type": "Private"
-        },
-        {
-          "name": "ESIC Hospital, Okhla, Delhi",
-          "city": "Delhi-110020",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "Fortis Hospital, Shalimar Bagh",
-          "city": "Delhi-110088",
-          "beds": 262,
-          "type": "Private"
-        },
-        {
-          "name": "Maharaja Agarsen Hospital, West Punjabi Bagh",
-          "city": "Delhi-110026",
-          "beds": 400,
-          "type": "Private"
-        },
-        {
-          "name": "Institute of Human Behaviour and Allied Sciences",
-          "city": "Delhi",
-          "beds": 260,
-          "type": "Private"
-        },
-        {
-          "name": "Mata Chanan Devi Hospital",
-          "city": "Delhi-110058",
-          "beds": 210,
-          "type": "Private"
-        },
-        {
-          "name": "National Institute of Tuberculosis and Respiratory Diseases",
-          "city": "Delhi-110030",
-          "beds": 470,
-          "type": "Private"
-        },
-        {
-          "name": "Action Cancer Hospital, Paschim Vihar, New Delhi",
-          "city": "Delhi-110063",
-          "beds": 130,
-          "type": "Private"
-        },
-        {
-          "name": "Kasturba Hospital",
-          "city": "New Delhi",
-          "beds": 450,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "haryana",
-      "name": "Haryana",
-      "total_colleges": 17,
-      "total_beds": 9342,
-      "colleges": [
-        {
-          "name": "Employees State Insurance Corporation Medical College",
-          "city": "Faridabad",
-          "beds": 625,
-          "type": "Private"
-        },
-        {
-          "name": "Pt BD Sharma Postgraduate Institute of Medical Sciences",
-          "city": "Rohtak",
-          "beds": 2080,
-          "type": "Private"
-        },
-        {
-          "name": "Medanta The Medicity, Gurgaon",
-          "city": "Haryana-122001",
-          "beds": 1391,
-          "type": "Private"
-        },
-        {
-          "name": "Artemis Health Institute, Gurgaon",
-          "city": "Haryana-122001",
-          "beds": 520,
-          "type": "Private"
-        },
-        {
-          "name": "Metro Heart Institute with Multispecialty, Faridabad",
-          "city": "Haryana-121002",
-          "beds": 400,
-          "type": "Private"
-        },
-        {
-          "name": "Fortis Memorial Research Institute, Gurgaon",
-          "city": "Haryana-122002",
-          "beds": 300,
-          "type": "Private"
-        },
-        {
-          "name": "Paras Hospital, Gurgaon",
-          "city": "Haryana-122002",
-          "beds": 250,
-          "type": "Private"
-        },
-        {
-          "name": "Fortis Escorts Hospital, Faridabad",
-          "city": "Haryana-121002",
-          "beds": 210,
-          "type": "Private"
-        },
-        {
-          "name": "Kalpana Chawla Government Medical College, Karnal",
-          "city": "Haryana-132001",
-          "beds": 556,
-          "type": "Government"
-        },
-        {
-          "name": "Asian Institute of Medical Sciences, Faridabad",
-          "city": "Haryana-121001",
-          "beds": 425,
-          "type": "Private"
-        },
-        {
-          "name": "Aadhar Health Institute, Hisar",
-          "city": "Haryana-125001",
-          "beds": 200,
-          "type": "Private"
-        },
-        {
-          "name": "OP Jindal Institute of Cancer & Cardiac Research, Hisar",
-          "city": "Haryana-125005",
-          "beds": 580,
-          "type": "Private"
-        },
-        {
-          "name": "Narula Diagnostic Centre LLP, Civil Road, Rohtak, Haryana-124001 (Joint Programme with Sarvodaya Multispeciality and Cancer Hospital",
-          "city": "Hisar as Secondary Hospital)",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "Sarvodaya Hospital and Research Centre, Faridabad",
-          "city": "Haryana-121006",
-          "beds": 450,
-          "type": "Private"
-        },
-        {
-          "name": "Sarvodaya Multispeciality and Cancer Hospital, Hisar",
-          "city": "Haryana-125001",
-          "beds": 100,
-          "type": "Private"
-        },
-        {
-          "name": "Maharaja Agrasen Medical College, Hisar",
-          "city": "Haryana-125047",
-          "beds": 705,
-          "type": "Private"
-        },
-        {
-          "name": "Bhagat Phool Singh Government Medical College for Women, Sonepat",
-          "city": "Haryana-131305",
-          "beds": 550,
-          "type": "Government"
-        }
-      ]
-    },
-    {
-      "id": "jharkhand",
-      "name": "Jharkhand",
-      "total_colleges": 2,
-      "total_beds": 2737,
-      "colleges": [
-        {
-          "name": "Rajendra Institute of Medical Sciences",
-          "city": "Ranchi",
-          "beds": 1754,
-          "type": "Private"
-        },
-        {
-          "name": "Tata Main Hospital, Jamshedpur",
-          "city": "Jharkhand-831001",
-          "beds": 983,
           "type": "Private"
         }
       ]
@@ -1719,6 +101,2236 @@
       ]
     },
     {
+      "id": "arunachal-pradesh",
+      "name": "Arunachal Pradesh",
+      "total_colleges": 1,
+      "total_beds": 500,
+      "colleges": [
+        {
+          "name": "Tomo Riba Institute of Health & Medical Sciences",
+          "city": "Naharlagun",
+          "beds": 500,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "assam",
+      "name": "Assam",
+      "total_colleges": 6,
+      "total_beds": 6590,
+      "colleges": [
+        {
+          "name": "Gauhati Medical College",
+          "city": "Guwahati",
+          "beds": 2185,
+          "type": "Private"
+        },
+        {
+          "name": "Assam Medical College",
+          "city": "Dibrugarh",
+          "beds": 1365,
+          "type": "Private"
+        },
+        {
+          "name": "Silchar Medical College",
+          "city": "Silchar",
+          "beds": 1256,
+          "type": "Private"
+        },
+        {
+          "name": "Jorhat Medical College & Hospital",
+          "city": "Jorhat",
+          "beds": 814,
+          "type": "Private"
+        },
+        {
+          "name": "Tezpur Medical College & Hospital",
+          "city": "Tezpur",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Fakhruddin Ali Ahmed Medical College",
+          "city": "Barpeta",
+          "beds": 470,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "bihar",
+      "name": "Bihar",
+      "total_colleges": 51,
+      "total_beds": 18241,
+      "colleges": [
+        {
+          "name": "Patna Medical College",
+          "city": "Patna",
+          "beds": 1748,
+          "type": "Private"
+        },
+        {
+          "name": "Nalanda Medical College",
+          "city": "Patna",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Indira Gandhi Institute of Medical Sciences, Sheikhpura",
+          "city": "Patna",
+          "beds": 1170,
+          "type": "Private"
+        },
+        {
+          "name": "Darbhanga Medical College",
+          "city": "Lehriasarai",
+          "beds": 1030,
+          "type": "Private"
+        },
+        {
+          "name": "Jawaharlal Nehru Medical College",
+          "city": "Bhagalpur",
+          "beds": 800,
+          "type": "Private"
+        },
+        {
+          "name": "Bhagwan Mahavir Institute of Medical Sciences, Pawapuri, Nalanda (Prev. Vardhman Institute of Medical Sciences",
+          "city": "Pawapuri)",
+          "beds": 640,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Bettiah",
+          "beds": 470,
+          "type": "Government"
+        },
+        {
+          "name": "Shri Krishna Medical College",
+          "city": "Muzzafarpur",
+          "beds": 610,
+          "type": "Private"
+        },
+        {
+          "name": "Anugrah Narayan Magadh Medical College",
+          "city": "Gaya",
+          "beds": 425,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College, Purnea",
+          "city": "Bihar-854301",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Anugrah Narayan Magdh Medical College, Gaya",
+          "city": "Bihar-823001",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Bhagwan Mahavir Institute of Medical Sciences, Pawapuri, Nalanda",
+          "city": "Bihar-803115",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Jawaharlal Nehru Medical College and Hospital, Mayaganj Bhagalpur",
+          "city": "Bihar-812001",
+          "beds": 659,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Muzaffarpur",
+          "city": "Bihar-842001",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Mata Gujri Memorial Medical College",
+          "city": "Kishanganj",
+          "beds": 610,
+          "type": "Private"
+        },
+        {
+          "name": "Lord Buddha Koshi Medical College and Hospital",
+          "city": "Saharsa",
+          "beds": 380,
+          "type": "Private"
+        },
+        {
+          "name": "Jannyak Karpoori Thakur Medical College and Hospital, Madhepura",
+          "city": "Bihar-852128",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College, Bettiah",
+          "city": "Bihar-845438",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Katihar Medical College",
+          "city": "Katihar",
+          "beds": 794,
+          "type": "Private"
+        },
+        {
+          "name": "Indira Gandhi Institute of Medical Sciences, Sheikhpura, Patna",
+          "city": "Bihar-800014",
+          "beds": 1170,
+          "type": "Private"
+        },
+        {
+          "name": "Sri Krishna Medical College and Hospital, Muzaffarpur",
+          "city": "Bihar-842004",
+          "beds": 987,
+          "type": "Private"
+        },
+        {
+          "name": "Netaji Subhas Medical College & Hospital, Amhara",
+          "city": "Bihta",
+          "beds": 790,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Belisarai, Motihari",
+          "city": "Bihar-845401",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Narayan Medical College & Hospital",
+          "city": "Sasaram",
+          "beds": 650,
+          "type": "Private"
+        },
+        {
+          "name": "Shree Narayan Medical Institute and Hospital",
+          "city": "Saharsa",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Madhepura Main Road, Near Pani Tanki Chowk, Madhepura",
+          "city": "Bihar-852113",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Lok Nayak Jay Prakash Naryan Sadar Hospital, Bhagalpur, Ghantaghar Chowk",
+          "city": "Bihar-812001",
+          "beds": 100,
+          "type": "Private"
+        },
+        {
+          "name": "Madhubani Medical College",
+          "city": "Madhubani",
+          "beds": 440,
+          "type": "Private"
+        },
+        {
+          "name": "Radha Devi Jageshwari Memorial Medical College and Hospital",
+          "city": "Muzaffarpur",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Begusarai",
+          "city": "Bihar-851101",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Amar Shaheed Jagdeo Prasad Sadar Hospital, Jehanabad",
+          "city": "Bihar-804408",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Gopalganj",
+          "city": "Bihar-841428",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, West of Patel Maidan, Kashipur, Samastipur",
+          "city": "Bihar-848101",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Katoria Road, Banka",
+          "city": "Bihar-813102",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Loknayak Jaiprakash Narayan Hospital, Rajbanshinagar, Patna",
+          "city": "Bihar-800023",
+          "beds": 158,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Khagaria",
+          "city": "Bihar-851204",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Darbhanga Medical College Hospital, Darbhanga",
+          "city": "Bihar-846003",
+          "beds": 1030,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Hajipur, Vaishali",
+          "city": "Bihar-844101",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Bihar State Institute of Mental Health and Allied Sciences (BIMHAS), Koilwar, Bhojpur",
+          "city": "Bihar-802160",
+          "beds": 180,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Shivaganj, Ara",
+          "city": "Bhojpur Bihar-802301",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Siwan",
+          "city": "Bihar-841226",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Sitamarhi",
+          "city": "Bihar-843302",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Rouza Road, Sasaram",
+          "city": "Bihar-821115",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Saroja Sitaram Sadar Hospital, Nagar Parishad, Sheohar",
+          "city": "Bihar-843329",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Nawada",
+          "city": "Bihar-805110",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Madhubani",
+          "city": "Bihar-847211",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Lakhisarai",
+          "city": "Bihar-811311",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Araria",
+          "city": "Bihar-854311",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Sadar Hospital Chapra Near Daroga Rai Chowk Saran",
+          "city": "Bihar-841301",
+          "beds": 150,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, Biharsharif, Nalanda",
+          "city": "Bihar-803101",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sadar Hospital, East Champaran",
+          "city": "Bihar-845401",
+          "beds": 0,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "chandigarh",
+      "name": "Chandigarh",
+      "total_colleges": 2,
+      "total_beds": 1467,
+      "colleges": [
+        {
+          "name": "Government Medical College",
+          "city": "Chandigarh",
+          "beds": 967,
+          "type": "Government"
+        },
+        {
+          "name": "Government Multi Specialty Hospital, Sector-16, Chandigarh",
+          "city": "Chandigarh-160016",
+          "beds": 500,
+          "type": "Government"
+        }
+      ]
+    },
+    {
+      "id": "chhattisgarh",
+      "name": "Chhattisgarh",
+      "total_colleges": 6,
+      "total_beds": 3835,
+      "colleges": [
+        {
+          "name": "Pt JNM Medical College",
+          "city": "Raipur",
+          "beds": 1246,
+          "type": "Private"
+        },
+        {
+          "name": "Chhattisgarh Institute of Medical Sciences",
+          "city": "Bilaspur",
+          "beds": 550,
+          "type": "Private"
+        },
+        {
+          "name": "Ramkrishna Care Hospital, Raipur",
+          "city": "Chhattisgarh-492001",
+          "beds": 359,
+          "type": "Private"
+        },
+        {
+          "name": "Late Shri Lakhi Ram Agrawal Memorial Government Medical College",
+          "city": "Raigarh",
+          "beds": 650,
+          "type": "Government"
+        },
+        {
+          "name": "JLN Main Hospital and Research Centre, Bhilai",
+          "city": "Chhattisgarh-490009",
+          "beds": 860,
+          "type": "Private"
+        },
+        {
+          "name": "Vedanta Medical Research Foundation (Balco Medical Centre), Sector 36, PO Uparwara, New Raipur",
+          "city": "Chhattisgarh-493661",
+          "beds": 170,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "dadra-and-nagar-haveli",
+      "name": "Dadra and Nagar Haveli",
+      "total_colleges": 1,
+      "total_beds": 650,
+      "colleges": [
+        {
+          "name": "NAMO Medical Education and Research Institute, Silvassa (Prev. Shri Vinoba Bhave Institute of Medical Sciences), (Government Medical College",
+          "city": "Silvassa)",
+          "beds": 650,
+          "type": "Government"
+        }
+      ]
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "total_colleges": 1,
+      "total_beds": 221,
+      "colleges": [
+        {
+          "name": "Chacha Nehru Bal Chikitsalaya",
+          "city": "Delhi",
+          "beds": 221,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "goa",
+      "name": "Goa",
+      "total_colleges": 1,
+      "total_beds": 1160,
+      "colleges": [
+        {
+          "name": "Goa Medical College",
+          "city": "Panaji",
+          "beds": 1160,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "gujarat",
+      "name": "Gujarat",
+      "total_colleges": 14,
+      "total_beds": 9819,
+      "colleges": [
+        {
+          "name": "BJ Medical College",
+          "city": "Ahmedabad",
+          "beds": 1557,
+          "type": "Private"
+        },
+        {
+          "name": "Apollo Hospital International, Plot 1A, GIDC Estate, Bhat Gandhinagar",
+          "city": "Gujarat-382428",
+          "beds": 300,
+          "type": "Private"
+        },
+        {
+          "name": "Medical College",
+          "city": "Baroda",
+          "beds": 1250,
+          "type": "Private"
+        },
+        {
+          "name": "MP Shah Medical College",
+          "city": "Jamnagar",
+          "beds": 1250,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Surat",
+          "beds": 1150,
+          "type": "Government"
+        },
+        {
+          "name": "Pandit Deendayal Upadhyay Medical College",
+          "city": "Rajkot",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "GMERS Medical College, Gandhinagar",
+          "city": "Gujarat-382016",
+          "beds": 980,
+          "type": "Private"
+        },
+        {
+          "name": "Shalby Hospital, SG Highway, Ahmedabad",
+          "city": "Gujarat-380015",
+          "beds": 200,
+          "type": "Private"
+        },
+        {
+          "name": "Smt GR Doshi and Smt KM Mehta Institute of Kidney Diseases and Research Centre",
+          "city": "Ahmedabad",
+          "beds": 400,
+          "type": "Private"
+        },
+        {
+          "name": "SAL Hospital and Medical Institute, Ahmedabad",
+          "city": "Gujarat-380054",
+          "beds": 230,
+          "type": "Private"
+        },
+        {
+          "name": "GMERS Medical College and General Hospital, Himmatnagar",
+          "city": "Gujarat-383001",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "GMERS Medical College and Hospital, Junagadh",
+          "city": "Gujarat-362001",
+          "beds": 650,
+          "type": "Private"
+        },
+        {
+          "name": "Gujarat MRI Centre, Ahmedabad",
+          "city": "Gujarat-380009",
+          "beds": 102,
+          "type": "Private"
+        },
+        {
+          "name": "The Gujarat Research and Medical Institute (Rajasthan Hospitals), Ahmedabad",
+          "city": "Gujarat-380004",
+          "beds": 250,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "haryana",
+      "name": "Haryana",
+      "total_colleges": 27,
+      "total_beds": 10864,
+      "colleges": [
+        {
+          "name": "Employees State Insurance Corporation Medical College",
+          "city": "Faridabad",
+          "beds": 625,
+          "type": "Government"
+        },
+        {
+          "name": "Pt BD Sharma Postgraduate Institute of Medical Sciences",
+          "city": "Rohtak",
+          "beds": 2080,
+          "type": "Private"
+        },
+        {
+          "name": "Maharaja Agrasen Medical College",
+          "city": "Agroha",
+          "beds": 705,
+          "type": "Private"
+        },
+        {
+          "name": "Kalpana Chawla Government Medical College, Karnal",
+          "city": "Haryana-132001",
+          "beds": 556,
+          "type": "Government"
+        },
+        {
+          "name": "Bhagat Phool Singh Government Medical College for Women, Sonepat",
+          "city": "Haryana-131305",
+          "beds": 550,
+          "type": "Government"
+        },
+        {
+          "name": "Kalpana Chawla Government Medical College",
+          "city": "Karnal",
+          "beds": 556,
+          "type": "Government"
+        },
+        {
+          "name": "Adesh Medical College and Hospital",
+          "city": "Shahabad",
+          "beds": 775,
+          "type": "Private"
+        },
+        {
+          "name": "World College of Medical Sciences & Research",
+          "city": "Jhajjar",
+          "beds": 744,
+          "type": "Private"
+        },
+        {
+          "name": "NC Medical College & Hospital",
+          "city": "Panipat",
+          "beds": 680,
+          "type": "Private"
+        },
+        {
+          "name": "General Hospital, Panchkula",
+          "city": "Haryana-134108",
+          "beds": 300,
+          "type": "Private"
+        },
+        {
+          "name": "Shaheed Hasan Khan Mewati Government Medical College, Nuh",
+          "city": "Haryana-122107",
+          "beds": 647,
+          "type": "Government"
+        },
+        {
+          "name": "Faculty of Medicine and Health Sciences, Gurgaon (Prev. SGGST Medical College & R Centre",
+          "city": "Gurgaon)",
+          "beds": 720,
+          "type": "Private"
+        },
+        {
+          "name": "Maharishi Markandeshwar College of Medical Sciences & Research",
+          "city": "Sadopur",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Bhagat Phool Singh Government Medical College for Women, Sonepat (BPS Government Medical College for Women",
+          "city": "Sonepat)",
+          "beds": 506,
+          "type": "Government"
+        },
+        {
+          "name": "Civil Hospital, Palwal",
+          "city": "Haryana-121102",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Al Falah School of Medical Sciences & Research Centre",
+          "city": "Faridabad",
+          "beds": 320,
+          "type": "Private"
+        },
+        {
+          "name": "Shaheed Hasan Khan Mewati Government Medical College",
+          "city": "Nalhar",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Civil Hospital, Rohtak",
+          "city": "Haryana-124001",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Civil Hospital, Sector-10, Gurugram",
+          "city": "Haryana-122001",
+          "beds": 200,
+          "type": "Private"
+        },
+        {
+          "name": "District Civil Hospital, Hisar",
+          "city": "Haryana-125001",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Civil Hospital, Ambala Cantt",
+          "city": "Haryana-133001",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Civil Hospital, Bahadurgarh",
+          "city": "Haryana-124507",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Al-Aafia Civil Hospital, Nuh",
+          "city": "Haryana-122108",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Civil Hospital, Faridabad",
+          "city": "Haryana-121001",
+          "beds": 200,
+          "type": "Private"
+        },
+        {
+          "name": "District Civil Hospital, Ambala City",
+          "city": "Haryana-134003",
+          "beds": 200,
+          "type": "Private"
+        },
+        {
+          "name": "General Hospital, GT Road",
+          "city": "Panipat Haryana-132103",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "District Civil Hospital, Rewari",
+          "city": "Haryana-123401",
+          "beds": 0,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "himachal-pradesh",
+      "name": "Himachal Pradesh",
+      "total_colleges": 10,
+      "total_beds": 5559,
+      "colleges": [
+        {
+          "name": "Dr Rajendra Prasad Government Medical College",
+          "city": "Tanda",
+          "beds": 828,
+          "type": "Government"
+        },
+        {
+          "name": "Indira Gandhi Medical College",
+          "city": "Shimla",
+          "beds": 1031,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Radhakrishnan Government Medical College",
+          "city": "Hamirpur",
+          "beds": 630,
+          "type": "Government"
+        },
+        {
+          "name": "Shri Lal Bahadur Shastri Government Medical College",
+          "city": "Mandi",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Maharishi Markandeshwar Medical College & Hospital",
+          "city": "Solan",
+          "beds": 720,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Radhakrishnan Government Medical College, Hamirpur",
+          "city": "Himachal Pradesh-177001",
+          "beds": 300,
+          "type": "Government"
+        },
+        {
+          "name": "Dr YS Parmar Government Medical College",
+          "city": "Nahan",
+          "beds": 323,
+          "type": "Government"
+        },
+        {
+          "name": "Pt Jawahar Lal Nehru Government Medical College",
+          "city": "Chamba",
+          "beds": 380,
+          "type": "Government"
+        },
+        {
+          "name": "Shri Lal Bahadur Shastri Government Medical College and Hospital, Mandi",
+          "city": "Himachal Pradesh-175021",
+          "beds": 550,
+          "type": "Government"
+        },
+        {
+          "name": "Dr Yashwant Singh Parmar Government Medical College, Nahan",
+          "city": "Himachal Pradesh-173001",
+          "beds": 297,
+          "type": "Government"
+        }
+      ]
+    },
+    {
+      "id": "jammu-and-kashmir",
+      "name": "Jammu and Kashmir",
+      "total_colleges": 2,
+      "total_beds": 4320,
+      "colleges": [
+        {
+          "name": "Sher-I-Kashmir Institute of Medical Sciences",
+          "city": "Srinagar",
+          "beds": 1200,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Jammu",
+          "beds": 3120,
+          "type": "Government"
+        }
+      ]
+    },
+    {
+      "id": "jharkhand",
+      "name": "Jharkhand",
+      "total_colleges": 3,
+      "total_beds": 2854,
+      "colleges": [
+        {
+          "name": "Shaheed Nirmal Mahto Medical College & Hospital, Dhanbad (Prev. Patliputra Medical College",
+          "city": "Dhanbad)",
+          "beds": 560,
+          "type": "Private"
+        },
+        {
+          "name": "Rajendra Institute of Medical Sciences",
+          "city": "Ranchi",
+          "beds": 1754,
+          "type": "Private"
+        },
+        {
+          "name": "MGM Medical College",
+          "city": "Jamshedpur",
+          "beds": 540,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "karnataka",
+      "name": "Karnataka",
+      "total_colleges": 90,
+      "total_beds": 59375,
+      "colleges": [
+        {
+          "name": "Bangalore Medical College and Research Institute",
+          "city": "Bangalore",
+          "beds": 1993,
+          "type": "Private"
+        },
+        {
+          "name": "Mysore Medical College and Research Institute, Mysore (Prev. Government Medical College",
+          "city": "Mysore)",
+          "beds": 1050,
+          "type": "Government"
+        },
+        {
+          "name": "Father Mullers Medical College",
+          "city": "Mangalore",
+          "beds": 1250,
+          "type": "Private"
+        },
+        {
+          "name": "Mandya Institute of Medical Sciences",
+          "city": "Mandya",
+          "beds": 910,
+          "type": "Private"
+        },
+        {
+          "name": "Belagavi Institute of Medical Sciences",
+          "city": "Belagavi",
+          "beds": 1000,
+          "type": "Private"
+        },
+        {
+          "name": "Employees State Insurance Corporation Medical College",
+          "city": "Bangalore",
+          "beds": 530,
+          "type": "Government"
+        },
+        {
+          "name": "Karnataka Institute of Medical Sciences",
+          "city": "Hubballi",
+          "beds": 1200,
+          "type": "Private"
+        },
+        {
+          "name": "Shimoga Institute of Medical Sciences",
+          "city": "Shimoga",
+          "beds": 950,
+          "type": "Private"
+        },
+        {
+          "name": "St John's Medical College",
+          "city": "Bangalore",
+          "beds": 1720,
+          "type": "Private"
+        },
+        {
+          "name": "Shri Atal Bihari Vajpayee Medical College & Research Institute",
+          "city": "Bengaluru",
+          "beds": 956,
+          "type": "Private"
+        },
+        {
+          "name": "Vijaynagar Institute of Medical Sciences",
+          "city": "Bellary",
+          "beds": 1295,
+          "type": "Private"
+        },
+        {
+          "name": "MS Ramaiah Medical College",
+          "city": "Bangalore",
+          "beds": 1331,
+          "type": "Private"
+        },
+        {
+          "name": "Hassan Institute of Medical Sciences",
+          "city": "Hassan",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Raichur Institute of Medical Sciences",
+          "city": "Raichur",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "KH Patil Institute of Medical Sciences, Mallasamudra, Mulgund Road",
+          "city": "Gadag (Prev. Gadag Institute of Medical Sciences)",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Gulbarga Institute of Medical Sciences",
+          "city": "Gulbarga",
+          "beds": 873,
+          "type": "Private"
+        },
+        {
+          "name": "JJM Medical College",
+          "city": "Davangere",
+          "beds": 1930,
+          "type": "Private"
+        },
+        {
+          "name": "SDM College of Medical Sciences & Hospital, Sattur",
+          "city": "Dharwad",
+          "beds": 670,
+          "type": "Private"
+        },
+        {
+          "name": "Kempegowda Institute of Medical Sciences",
+          "city": "Bangalore",
+          "beds": 1100,
+          "type": "Private"
+        },
+        {
+          "name": "Mahadevappa Rampure Medical College",
+          "city": "Gulbarga",
+          "beds": 1038,
+          "type": "Private"
+        },
+        {
+          "name": "Koppal Institute of Medical Sciences Koppal",
+          "city": "Karnataka",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Karwar Institute of Medical Sciences",
+          "city": "Karwar",
+          "beds": 650,
+          "type": "Private"
+        },
+        {
+          "name": "Chamrajanagar Institute of Medical Sciences",
+          "city": "Karnataka",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Nandi Medical College and Research Institute (Chikkaballapura Institute of Medical Sciences)",
+          "city": "Chikkaballapur",
+          "beds": 360,
+          "type": "Private"
+        },
+        {
+          "name": "Kodagu Institute of Medical Sciences",
+          "city": "Kodagu",
+          "beds": 600,
+          "type": "Private"
+        },
+        {
+          "name": "AJ Institute of Medical Sciences & Research Centre",
+          "city": "Mangalore",
+          "beds": 910,
+          "type": "Private"
+        },
+        {
+          "name": "KS Hegde Medical Academy",
+          "city": "Mangalore",
+          "beds": 1000,
+          "type": "Private"
+        },
+        {
+          "name": "Vydehi Institute of Medical Sciences & Research Centre",
+          "city": "Bangalore",
+          "beds": 1600,
+          "type": "Private"
+        },
+        {
+          "name": "BGS Global Institute of Medical Sciences",
+          "city": "Bangalore",
+          "beds": 766,
+          "type": "Private"
+        },
+        {
+          "name": "Bidar Institute of Medical Sciences",
+          "city": "Bidar",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Sapthagiri Institute of Medical Sciences & Research Centre",
+          "city": "Bangalore",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "JSS Medical College",
+          "city": "Mysore",
+          "beds": 2060,
+          "type": "Private"
+        },
+        {
+          "name": "Dr BR Ambedkar Medical College",
+          "city": "Bangalore",
+          "beds": 570,
+          "type": "Private"
+        },
+        {
+          "name": "SS Institute of Medical Sciences & Research Centre",
+          "city": "Davangere",
+          "beds": 1190,
+          "type": "Private"
+        },
+        {
+          "name": "Kasturba Medical College",
+          "city": "Mangalore",
+          "beds": 1290,
+          "type": "Private"
+        },
+        {
+          "name": "East Point College of Medical Sciences & Research Centre",
+          "city": "Bangalore",
+          "beds": 999,
+          "type": "Private"
+        },
+        {
+          "name": "Akash Institute of Medical Sciences & Research Centre, Devanhalli",
+          "city": "Bangalore",
+          "beds": 760,
+          "type": "Private"
+        },
+        {
+          "name": "S Nijalingappa Medical College & HSK Hospital & Research Centre",
+          "city": "Bagalkot",
+          "beds": 1140,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Chandramma Dayananda Sagar Institute of Medical Education & Research, Harohalli",
+          "city": "Hubli",
+          "beds": 800,
+          "type": "Private"
+        },
+        {
+          "name": "Indira Gandhi Institute of Child Health",
+          "city": "Bangalore",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Basaveswara Medical College and Hospital",
+          "city": "Chitradurga",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Yenepoya Medical College",
+          "city": "Mangalore",
+          "beds": 910,
+          "type": "Private"
+        },
+        {
+          "name": "Adichunchanagiri Institute of Medical Sciences",
+          "city": "Bellur",
+          "beds": 1120,
+          "type": "Private"
+        },
+        {
+          "name": "Haveri Institute of Medical Sciences",
+          "city": "Haveri",
+          "beds": 550,
+          "type": "Private"
+        },
+        {
+          "name": "SDS Tuberculosis Research Centre and Rajiv Gandhi Institute of Chest Diseases",
+          "city": "Bangalore",
+          "beds": 470,
+          "type": "Private"
+        },
+        {
+          "name": "Subbaiah Institute of Medical Sciences",
+          "city": "Shimoga",
+          "beds": 1250,
+          "type": "Private"
+        },
+        {
+          "name": "Siddaganga Medical College and Research Institute",
+          "city": "Tumakuru",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Srinivas Institute of Medical Research Centre",
+          "city": "Srinivasnagar",
+          "beds": 660,
+          "type": "Private"
+        },
+        {
+          "name": "Employees State Insurance Corporation Medical College",
+          "city": "Gulbarga",
+          "beds": 480,
+          "type": "Government"
+        },
+        {
+          "name": "KVG Medical College",
+          "city": "Sullia",
+          "beds": 682,
+          "type": "Private"
+        },
+        {
+          "name": "MVJ Medical College and Research Hospital",
+          "city": "Bangalore",
+          "beds": 833,
+          "type": "Private"
+        },
+        {
+          "name": "Al-Ameen Medical College",
+          "city": "Bijapur",
+          "beds": 1040,
+          "type": "Private"
+        },
+        {
+          "name": "Khaja Bandanawaz University - Faculty of Medical Sciences",
+          "city": "Gulbarga",
+          "beds": 833,
+          "type": "Private"
+        },
+        {
+          "name": "Shridevi Institute of Medical Sciences & Research Hospital",
+          "city": "Tumkur",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Sri Madhusudan Sai Institute of Medical Sciences and Research",
+          "city": "Chikkaballapur",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Kanachur Institute of Medical Sciences",
+          "city": "Mangalore",
+          "beds": 785,
+          "type": "Private"
+        },
+        {
+          "name": "The Oxford Medical College, Hospital & Research Centre",
+          "city": "Bangalore",
+          "beds": 770,
+          "type": "Private"
+        },
+        {
+          "name": "Navodaya Medical College",
+          "city": "Raichur",
+          "beds": 1110,
+          "type": "Private"
+        },
+        {
+          "name": "Sri Chamundeshwari Medical College Hospital & Research Institute",
+          "city": "Ramanagara",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Kidwai Memorial Institute of Oncology",
+          "city": "Bangalore",
+          "beds": 680,
+          "type": "Private"
+        },
+        {
+          "name": "Dharwad Institute of Mental Health and Neuro Sciences",
+          "city": "Dharwad",
+          "beds": 375,
+          "type": "Private"
+        },
+        {
+          "name": "Shri BM Patil Medical College, Hospital & Research Centre",
+          "city": "Vijayapura",
+          "beds": 1130,
+          "type": "Private"
+        },
+        {
+          "name": "General Hospital, Jayanagar, Bengaluru",
+          "city": "Karnataka-560041",
+          "beds": 300,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital, Chitradurga",
+          "city": "Karnataka-577501",
+          "beds": 450,
+          "type": "Government"
+        },
+        {
+          "name": "KC General Hospital, Bangalore",
+          "city": "Karnataka-560003",
+          "beds": 503,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital Chikkaballapur, Chikkaballapur",
+          "city": "Karnataka-562101",
+          "beds": 300,
+          "type": "Government"
+        },
+        {
+          "name": "District Hospital, Tumakuru",
+          "city": "Karnataka-572101",
+          "beds": 400,
+          "type": "Government"
+        },
+        {
+          "name": "District Hospital, Dharwad",
+          "city": "Karnataka-580001",
+          "beds": 250,
+          "type": "Government"
+        },
+        {
+          "name": "Kasturba Medical College",
+          "city": "Manipal",
+          "beds": 2032,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital, Ballari",
+          "city": "Karnataka-583101",
+          "beds": 210,
+          "type": "Government"
+        },
+        {
+          "name": "Taluk General Hospital, Bhadravathi",
+          "city": "Karnataka-577301",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "SNR District Hospital, Kolar",
+          "city": "Karnataka-563101",
+          "beds": 400,
+          "type": "Government"
+        },
+        {
+          "name": "District Hospital, Vijayapura",
+          "city": "Karnataka-586103",
+          "beds": 426,
+          "type": "Government"
+        },
+        {
+          "name": "Sir CV Raman General Hospital, Bangalore",
+          "city": "Karnataka-560038",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital, Navanagar Bagalkot",
+          "city": "Karnataka-587103",
+          "beds": 400,
+          "type": "Government"
+        },
+        {
+          "name": "General Hospital, Kanakapura Taluq",
+          "city": "Karnataka-562117",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "General Hospital, Tiptur",
+          "city": "Karnataka-572201",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "General Hospital, Doddaballapura Taluk",
+          "city": "Karnataka-561203",
+          "beds": 100,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital, Haveri",
+          "city": "Karnataka-581110",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Sub Divisional Hospital, Sagara",
+          "city": "Karnataka-577401",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sri Jayachamarajendra General Hospital, Arsikere, Hassan",
+          "city": "Karnataka-573103",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sub Division Hospital, Gangavathi",
+          "city": "Karnataka-583227",
+          "beds": 130,
+          "type": "Private"
+        },
+        {
+          "name": "General Hospital, Pavagada",
+          "city": "Karnataka-561202",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Taluka General Hospital, Saundatti",
+          "city": "Karnataka-591126",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital and Epidemiological Diseases Hospital, Metagalli, Mysuru",
+          "city": "Karnataka-570016",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "General Hospital, Gokak, Belgaum",
+          "city": "Karnataka-591307",
+          "beds": 75,
+          "type": "Private"
+        },
+        {
+          "name": "Aralaguppe Mallegowda District Hospital, Chikkamagaluru",
+          "city": "Karnataka-577101",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "General Hospital, Hassan",
+          "city": "Karnataka-573211",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Sanjay Gandhi Institute of Trauma and Orthopaedics",
+          "city": "Bangalore",
+          "beds": 180,
+          "type": "Private"
+        },
+        {
+          "name": "Chikkamagaluru Institute of Medical Sciences",
+          "city": "Chikkamagaluru",
+          "beds": 1050,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "kerala",
+      "name": "Kerala",
+      "total_colleges": 26,
+      "total_beds": 21177,
+      "colleges": [
+        {
+          "name": "Government Medical College, Kozhikode",
+          "city": "Calicut",
+          "beds": 3025,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Thrissur",
+          "beds": 2094,
+          "type": "Government"
+        },
+        {
+          "name": "Medical College",
+          "city": "Thiruvananthapuram",
+          "beds": 2126,
+          "type": "Private"
+        },
+        {
+          "name": "TD Medical College",
+          "city": "Alleppey (Allappuzha)",
+          "beds": 1050,
+          "type": "Private"
+        },
+        {
+          "name": "Malabar Institute of Medical Sciences, Kozhikode",
+          "city": "Kerala-673016",
+          "beds": 573,
+          "type": "Private"
+        },
+        {
+          "name": "Aster Medcity, Kochi",
+          "city": "Kerala-682027",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College, Pariyaram, Kannur (Prev. Academy of Medical Sciences, Pariyaram",
+          "city": "Kannur)",
+          "beds": 1752,
+          "type": "Government"
+        },
+        {
+          "name": "Lourdes Hospital, Kochi",
+          "city": "Kerala-682012",
+          "beds": 600,
+          "type": "Private"
+        },
+        {
+          "name": "Baby Memorial Hospital, Kozhikode",
+          "city": "Kerala-673004",
+          "beds": 600,
+          "type": "Private"
+        },
+        {
+          "name": "Kerala Institute of Medical Sciences, Thiruvananthapuram",
+          "city": "Kerala-695024",
+          "beds": 650,
+          "type": "Private"
+        },
+        {
+          "name": "Lakeshore Hospital and Research Centre, Kochi",
+          "city": "Kerala-682040",
+          "beds": 470,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College, Parippally",
+          "city": "Kollam",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Lisie Medical Institution, Kochi",
+          "city": "Kerala-682018",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Medical Trust Hospital, Kochi",
+          "city": "Kerala-682016",
+          "beds": 575,
+          "type": "Private"
+        },
+        {
+          "name": "Rajagiri Hospital, Ernakulam",
+          "city": "Kerala-683112",
+          "beds": 572,
+          "type": "Private"
+        },
+        {
+          "name": "Caritas Hospital, Kottayam",
+          "city": "Kerala-686630",
+          "beds": 660,
+          "type": "Private"
+        },
+        {
+          "name": "Malabar Institute of Medical Sciences Ltd, Kannur",
+          "city": "Kerala-670621",
+          "beds": 425,
+          "type": "Private"
+        },
+        {
+          "name": "IQRAA International Hospital and Research Centre, Kozhikode",
+          "city": "Kerala-673009",
+          "beds": 510,
+          "type": "Private"
+        },
+        {
+          "name": "Ananthapuri Hospital and Research Institute, Thiruvananthapuram",
+          "city": "Kerala-695024",
+          "beds": 400,
+          "type": "Private"
+        },
+        {
+          "name": "PRS Hospital, Thiruvananthapuram",
+          "city": "Kerala-695002",
+          "beds": 300,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital, Palakkad",
+          "city": "Kerala-678001",
+          "beds": 544,
+          "type": "Private"
+        },
+        {
+          "name": "Mar Sleeva Medicity Palai, Cherpunkal, Kottayam",
+          "city": "Kerala-686584",
+          "beds": 648,
+          "type": "Private"
+        },
+        {
+          "name": "Kozhikode District Co-Operative Hospital, Eranhipalam",
+          "city": "Kerala-673006",
+          "beds": 175,
+          "type": "Private"
+        },
+        {
+          "name": "Polakulath Narayanan Renai Medicity Multi Super Specialty Hospital, Kochi",
+          "city": "Kerala-682025",
+          "beds": 205,
+          "type": "Private"
+        },
+        {
+          "name": "Government General Hospital, Kochi",
+          "city": "Kerala-682011",
+          "beds": 783,
+          "type": "Government"
+        },
+        {
+          "name": "Little Flower Hospital and Research Centre, Angamaly",
+          "city": "Kerala-683572",
+          "beds": 690,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "ladakh",
+      "name": "Ladakh",
+      "total_colleges": 1,
+      "total_beds": 280,
+      "colleges": [
+        {
+          "name": "SNM Hospital, Old Leh Road, Leh",
+          "city": "Ladakh-194101",
+          "beds": 280,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "madhya-pradesh",
+      "name": "Madhya Pradesh",
+      "total_colleges": 27,
+      "total_beds": 17030,
+      "colleges": [
+        {
+          "name": "Gandhi Medical College",
+          "city": "Bhopal",
+          "beds": 1135,
+          "type": "Private"
+        },
+        {
+          "name": "Netaji Subhash Chandra Bose Medical College",
+          "city": "Jabalpur",
+          "beds": 1150,
+          "type": "Private"
+        },
+        {
+          "name": "Gajra Raja Medical College",
+          "city": "Gwalior",
+          "beds": 1100,
+          "type": "Private"
+        },
+        {
+          "name": "Shyam Shah Medical College",
+          "city": "Rewa",
+          "beds": 1140,
+          "type": "Private"
+        },
+        {
+          "name": "MGM Medical College",
+          "city": "Indore",
+          "beds": 1300,
+          "type": "Private"
+        },
+        {
+          "name": "Bundelkhand Medical College",
+          "city": "Sagar",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Ruxmaniben Deepchand Gardi Medical College",
+          "city": "Ujjain",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Laxminarayan Pandey Government Medical College",
+          "city": "Ratlam",
+          "beds": 300,
+          "type": "Government"
+        },
+        {
+          "name": "Sri Aurobindo Medical College and Post Graduate Institute",
+          "city": "Indore",
+          "beds": 1230,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Datia",
+          "beds": 540,
+          "type": "Government"
+        },
+        {
+          "name": "Atal Bihari Vajpayee Government Medical College",
+          "city": "Vidisha",
+          "beds": 300,
+          "type": "Government"
+        },
+        {
+          "name": "Peoples College of Medical Sciences & Research Centre, Bhanpur",
+          "city": "Bhopal",
+          "beds": 1150,
+          "type": "Private"
+        },
+        {
+          "name": "Chirayu Medical College and Hospital, Bairagarh",
+          "city": "Bhopal",
+          "beds": 912,
+          "type": "Private"
+        },
+        {
+          "name": "LN Medical College and Research Centre",
+          "city": "Bhopal",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Nandkumar Singh Chouhan Government Medical College",
+          "city": "Khandwa",
+          "beds": 120,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College, Chhindwara",
+          "city": "MP",
+          "beds": 674,
+          "type": "Government"
+        },
+        {
+          "name": "Ram Krishna College Hospital & Research Centre",
+          "city": "Bhopal",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Amaltas Institute of Medical Sciences",
+          "city": "Dewas",
+          "beds": 720,
+          "type": "Private"
+        },
+        {
+          "name": "Mahaveer Institute of Medical Sciences & Research",
+          "city": "Bhopal",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Index Medical College Hospital & Research Centre",
+          "city": "Indore",
+          "beds": 1299,
+          "type": "Private"
+        },
+        {
+          "name": "RKDF Medical College Hospital & Research Centre, Jatkhedi",
+          "city": "Bhopal",
+          "beds": 840,
+          "type": "Private"
+        },
+        {
+          "name": "Sukh Sagar Medical College & Hospital",
+          "city": "Jabalpur",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Gwalior Mansik Arogyashala",
+          "city": "Gwalior",
+          "beds": 50,
+          "type": "Private"
+        },
+        {
+          "name": "Shrimant Rajmata Vijayaraje Scindia Medical College and Hospital",
+          "city": "Shivpuri",
+          "beds": 520,
+          "type": "Private"
+        },
+        {
+          "name": "LNCT Medical College & Sewakunj Hospital",
+          "city": "Indore",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Satna",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Birsa Munda Government Medical College, Shahdol",
+          "city": "MP",
+          "beds": 300,
+          "type": "Government"
+        }
+      ]
+    },
+    {
+      "id": "maharashtra",
+      "name": "Maharashtra",
+      "total_colleges": 54,
+      "total_beds": 38823,
+      "colleges": [
+        {
+          "name": "Seth GS Medical College",
+          "city": "Mumbai",
+          "beds": 2250,
+          "type": "Private"
+        },
+        {
+          "name": "Lokmanya Tilak Municipal Medical College, Sion",
+          "city": "Mumbai",
+          "beds": 1462,
+          "type": "Private"
+        },
+        {
+          "name": "Topiwala National Medical College",
+          "city": "Mumbai",
+          "beds": 1300,
+          "type": "Private"
+        },
+        {
+          "name": "HBT Medical College & Dr RN Cooper Municipal General Hospital, Juhu",
+          "city": "Mumbai",
+          "beds": 940,
+          "type": "Private"
+        },
+        {
+          "name": "Grant Medical College",
+          "city": "Mumbai",
+          "beds": 2844,
+          "type": "Private"
+        },
+        {
+          "name": "BJ Government Medical College",
+          "city": "Pune",
+          "beds": 1296,
+          "type": "Government"
+        },
+        {
+          "name": "Tata Memorial centre",
+          "city": "Mumbai",
+          "beds": 614,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College, Chhatrapati Sambhaji Nagar",
+          "city": "Aurangabad",
+          "beds": 1177,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Nagpur",
+          "beds": 1866,
+          "type": "Government"
+        },
+        {
+          "name": "Pimpri Chinchwad Municipal Corporation PG Institute",
+          "city": "Pimpri",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Indira Gandhi Medical College & Hospital",
+          "city": "Nagpur",
+          "beds": 822,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Vaishampayan Memorial Medical College",
+          "city": "Solapur",
+          "beds": 763,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Shankarrao Chavan Government Medical College",
+          "city": "Nanded",
+          "beds": 750,
+          "type": "Government"
+        },
+        {
+          "name": "Mahatma Gandhi Institute of Medical Sciences, Sevagram",
+          "city": "Wardha",
+          "beds": 1000,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Miraj",
+          "beds": 725,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Latur",
+          "beds": 750,
+          "type": "Government"
+        },
+        {
+          "name": "Bombay Hospital Institute of Medical Sciences",
+          "city": "Mumbai",
+          "beds": 725,
+          "type": "Private"
+        },
+        {
+          "name": "Rajarshee Chhatrapati Shahu Maharaj Government Medical College",
+          "city": "Kolhapur",
+          "beds": 665,
+          "type": "Government"
+        },
+        {
+          "name": "Bhabha Atomic Research Centre",
+          "city": "Mumbai",
+          "beds": 390,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College and Maharashtra Post Graduate Institute of Medical Education and Research",
+          "city": "Nashik",
+          "beds": 560,
+          "type": "Government"
+        },
+        {
+          "name": "Dr Vasantrao Pawar Medical College Hospital & Research Centre, Nasik (Prev. NDMVP Samaj Medical College",
+          "city": "Nasik)",
+          "beds": 1000,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Akola",
+          "beds": 1050,
+          "type": "Government"
+        },
+        {
+          "name": "Postgraduate Institute of Medical Sciences (PGIMS)",
+          "city": "Navi Mumbai",
+          "beds": 580,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Chandrapur",
+          "beds": 650,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Jalgaon",
+          "beds": 441,
+          "type": "Government"
+        },
+        {
+          "name": "Rajiv Gandhi Medical College and Chhatrapati Shivaji Maharaj Hospital",
+          "city": "Thane",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Shri Vasantrao Naik Government Medical College",
+          "city": "Yavatmal",
+          "beds": 756,
+          "type": "Government"
+        },
+        {
+          "name": "Sri Bhausaheb Hire Government Medical College",
+          "city": "Dhule",
+          "beds": 545,
+          "type": "Government"
+        },
+        {
+          "name": "Dr Vithalrao Vikhe Patil Foundations Medical College & Hospital",
+          "city": "Ahmednagar",
+          "beds": 960,
+          "type": "Private"
+        },
+        {
+          "name": "KJ Somaiyya Medical College & Research Centre",
+          "city": "Mumbai",
+          "beds": 550,
+          "type": "Private"
+        },
+        {
+          "name": "SRTR Medical College",
+          "city": "Ambajogai",
+          "beds": 518,
+          "type": "Private"
+        },
+        {
+          "name": "NKP Salve Institute of Medical Sciences and Research Centre and Lata Mangeshkar Hospital",
+          "city": "Nagpur",
+          "beds": 1272,
+          "type": "Private"
+        },
+        {
+          "name": "SMBT Institute of Medical Sciences & Research Centre, Nandihills",
+          "city": "Nashik",
+          "beds": 850,
+          "type": "Private"
+        },
+        {
+          "name": "Maharashtra Institute of Medical Sciences & Research",
+          "city": "Latur",
+          "beds": 775,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Panjabrao Alias Bhausaheb Deshmukh Memorial Medical College",
+          "city": "Amravati",
+          "beds": 760,
+          "type": "Private"
+        },
+        {
+          "name": "Maharashtra Institute of Medical Education & Research, Talegaon",
+          "city": "Pune",
+          "beds": 720,
+          "type": "Private"
+        },
+        {
+          "name": "BKL Walawalkar Rural Medical College",
+          "city": "Ratnagiri",
+          "beds": 520,
+          "type": "Private"
+        },
+        {
+          "name": "Terna Medical College",
+          "city": "Navi Mumbai",
+          "beds": 700,
+          "type": "Private"
+        },
+        {
+          "name": "Ashwini Rural Medical College, Hospital & Research Centre",
+          "city": "Solapur",
+          "beds": 520,
+          "type": "Private"
+        },
+        {
+          "name": "Smt Kashibai Navale Medical College and General Hospital",
+          "city": "Pune",
+          "beds": 1094,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Gondia",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Dr NY Tasgaonkar Institute of Medical Science",
+          "city": "Karjat",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Ulhas Patil Medical College & Hospital",
+          "city": "Jalgaon",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Prakash Institute of Medical Sciences & Research",
+          "city": "Sangli",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "ACPM Medical College",
+          "city": "Dhule",
+          "beds": 570,
+          "type": "Private"
+        },
+        {
+          "name": "Indian Institute of Medical Science & Research",
+          "city": "Jalna",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Rajendra Gode Medical College",
+          "city": "Amravati",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College & Hospital",
+          "city": "Baramati",
+          "beds": 310,
+          "type": "Government"
+        },
+        {
+          "name": "Vedantaa Institute of Medical Sciences",
+          "city": "Palghar",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Nandurbar",
+          "beds": 325,
+          "type": "Government"
+        },
+        {
+          "name": "Postgraduate Institute of Swasthiyog Pratisthan",
+          "city": "Miraj",
+          "beds": 110,
+          "type": "Private"
+        },
+        {
+          "name": "Sancheti Institute for Orthpaedics & Rehabilitation",
+          "city": "Pune",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "All India Institute of Physical Medical and Rehabilitation",
+          "city": "Mumbai",
+          "beds": 55,
+          "type": "Private"
+        },
+        {
+          "name": "Sanjeevan Medical Foundation ENT Post Graduate Training Institute",
+          "city": "Miraj",
+          "beds": 43,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "manipur",
+      "name": "Manipur",
+      "total_colleges": 2,
+      "total_beds": 1717,
+      "colleges": [
+        {
+          "name": "Regional Institute of Medical Sciences",
+          "city": "Imphal",
+          "beds": 1074,
+          "type": "Private"
+        },
+        {
+          "name": "Jawaharlal Nehru Institute of Medical Sciences, Porompet",
+          "city": "Imphal",
+          "beds": 643,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "meghalaya",
+      "name": "Meghalaya",
+      "total_colleges": 1,
+      "total_beds": 594,
+      "colleges": [
+        {
+          "name": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences",
+          "city": "Shillong",
+          "beds": 594,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "mizoram",
+      "name": "Mizoram",
+      "total_colleges": 1,
+      "total_beds": 300,
+      "colleges": [
+        {
+          "name": "Civil Hospital, Aizawl",
+          "city": "Mizoram-796001",
+          "beds": 300,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "nagaland",
+      "name": "Nagaland",
+      "total_colleges": 1,
+      "total_beds": 300,
+      "colleges": [
+        {
+          "name": "Naga Hospital Authority, Kohima",
+          "city": "Nagaland-797001",
+          "beds": 300,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "odisha",
+      "name": "Odisha",
+      "total_colleges": 13,
+      "total_beds": 7231,
+      "colleges": [
+        {
+          "name": "SCB Medical College",
+          "city": "Cuttack",
+          "beds": 2106,
+          "type": "Private"
+        },
+        {
+          "name": "MKCG Medical College",
+          "city": "Berhampur",
+          "beds": 1140,
+          "type": "Private"
+        },
+        {
+          "name": "SUM Ultimate Medicare, Kalinga Nagar, Ghatikia, Bhubaneswar",
+          "city": "Odisha-751003",
+          "beds": 350,
+          "type": "Private"
+        },
+        {
+          "name": "Veer Surendra Sai Institute of Medical Sciences and Research",
+          "city": "Burla",
+          "beds": 1071,
+          "type": "Private"
+        },
+        {
+          "name": "Pt Raghunath Murmu Medical College and Hospital",
+          "city": "Baripada",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Apollo Hospital, Bhubaneswar",
+          "city": "Odisha-751005",
+          "beds": 350,
+          "type": "Private"
+        },
+        {
+          "name": "Shri Jagannath Medical College and Hospital, Baliguali, Puri",
+          "city": "Odisha-752002",
+          "beds": 467,
+          "type": "Private"
+        },
+        {
+          "name": "Post Graduate Institute of Medical Education and Research & Capital Hospital",
+          "city": "Bhubaneswar",
+          "beds": 760,
+          "type": "Private"
+        },
+        {
+          "name": "Care Hospital, Bhubaneswar",
+          "city": "Odisha-751016",
+          "beds": 230,
+          "type": "Private"
+        },
+        {
+          "name": "Kalinga Hospital, Bhubaneswar",
+          "city": "Odisha-751023",
+          "beds": 250,
+          "type": "Private"
+        },
+        {
+          "name": "Utkal Institute of Medical Sciences, Bhubaneswar",
+          "city": "Odisha-751021",
+          "beds": 200,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College and Hospital (Bhima Bhoi Medical College & Hospital)",
+          "city": "Balangir",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Jaiprakash Hospital and Research Centre, Rourkela",
+          "city": "Odisha-769004",
+          "beds": 307,
+          "type": "Private"
+        }
+      ]
+    },
+    {
       "id": "pondicherry",
       "name": "Pondicherry",
       "total_colleges": 1,
@@ -1789,191 +2401,335 @@
       ]
     },
     {
-      "id": "telangana",
-      "name": "Telangana",
-      "total_colleges": 23,
-      "total_beds": 19345,
+      "id": "rajasthan",
+      "name": "Rajasthan",
+      "total_colleges": 52,
+      "total_beds": 25424,
       "colleges": [
         {
-          "name": "Nizams Institute of Medical Sciences",
-          "city": "Hyderabad",
-          "beds": 1498,
+          "name": "Dr SN Medical College",
+          "city": "Jodhpur",
+          "beds": 3101,
           "type": "Private"
         },
         {
-          "name": "Employees State Insurance Coporation Medical College",
-          "city": "Sanath Nagar",
-          "beds": 690,
+          "name": "SMS Medical College",
+          "city": "Jaipur",
+          "beds": 5702,
           "type": "Private"
         },
         {
-          "name": "Osmania Medical College",
-          "city": "Hyderabad",
-          "beds": 4800,
+          "name": "RNT Medical College",
+          "city": "Udaipur",
+          "beds": 2206,
           "type": "Private"
         },
         {
-          "name": "Gandhi Medical College",
-          "city": "Secunderabad",
-          "beds": 1200,
-          "type": "Private"
-        },
-        {
-          "name": "Nizam`s Institute of Medical Sciences, Hyderabad",
-          "city": "Telangana-500082",
-          "beds": 1500,
-          "type": "Private"
-        },
-        {
-          "name": "Kakatiya Medical College",
-          "city": "Warangal",
-          "beds": 1150,
+          "name": "Jawaharlal Nehru Medical College",
+          "city": "Ajmer",
+          "beds": 1428,
           "type": "Private"
         },
         {
           "name": "Government Medical College",
-          "city": "Nizamabad",
-          "beds": 780,
+          "city": "Kota",
+          "beds": 2581,
           "type": "Government"
         },
         {
-          "name": "AIG Hospital, Hyderabad",
-          "city": "Telangana-500032",
-          "beds": 720,
+          "name": "Sardar Patel Medical College",
+          "city": "Bikaner",
+          "beds": 1570,
           "type": "Private"
         },
         {
-          "name": "Yashoda Hospital, SP Road, Secunderabad",
-          "city": "Telangana-500003",
-          "beds": 1026,
-          "type": "Private"
-        },
-        {
-          "name": "Krishna Institute of Medical Sciences, Secunderabad",
-          "city": "Telangana-500003",
-          "beds": 675,
-          "type": "Private"
-        },
-        {
-          "name": "Rajiv Gandhi Institute of Medical Sciences",
-          "city": "Adilabad",
+          "name": "Government DB General District Hospital, Churu",
+          "city": "Rajasthan-331001",
           "beds": 0,
-          "type": "Private"
+          "type": "Government"
         },
         {
-          "name": "Indo-American Cancer Institute and Research Centre, Hyderabad",
-          "city": "Telangana-500034",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Continental Hospital, Hyderabad",
-          "city": "Telangana-500032",
-          "beds": 587,
-          "type": "Private"
-        },
-        {
-          "name": "Care Hospital - Hi Tech City, Gachibowli, Hyderabad",
-          "city": "Telangana-500032",
-          "beds": 220,
-          "type": "Private"
-        },
-        {
-          "name": "Apollo Hospital, Jubilee Hills, Hyderabad",
-          "city": "Telangana-500033",
-          "beds": 550,
-          "type": "Private"
-        },
-        {
-          "name": "Yashoda Health Care Services Pvt Ltd, Khanamet Village, Serilingampally(M), Hyderabad",
-          "city": "Telangana-500084",
-          "beds": 600,
-          "type": "Private"
-        },
-        {
-          "name": "Yashoda Super Speciality Hospital, Malakpet, Hyderabad",
-          "city": "Telangana-500036",
-          "beds": 550,
-          "type": "Private"
-        },
-        {
-          "name": "Yashoda Health Care Services Pvt Ltd, Somajiguda, Hyderabad, Telangana-500082 (YHSPL) (Prev. Yashoda Super Speciality Hospital",
-          "city": "Somajiguda)",
-          "beds": 550,
-          "type": "Private"
-        },
-        {
-          "name": "Care Hospital, Banjara Hills, Hyderabad",
-          "city": "Telangana-500034",
-          "beds": 444,
-          "type": "Private"
-        },
-        {
-          "name": "KIMS SunShine Hospital, Begumpet, Hyderabad, Telangana-500016 (Prev. SunShine Hospital, Begumpet",
-          "city": "Hyderabad)",
+          "name": "RUHS College of Medical Sciences",
+          "city": "Jaipur",
           "beds": 300,
           "type": "Private"
         },
         {
-          "name": "MNJ Institute of Oncology and Cancer Regional Center, Lakdi Ka Oil, Hyderabad",
-          "city": "Telangana-500004",
-          "beds": 500,
+          "name": "Jhalawar Medical College",
+          "city": "Jhalawar",
+          "beds": 0,
           "type": "Private"
         },
         {
-          "name": "KIMS Hospital, Hyderabad",
-          "city": "Telangana-500084",
-          "beds": 200,
+          "name": "Government Medical College",
+          "city": "Bharatpur",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Mahatma Gandhi Hospital, Bhilwara",
+          "city": "Rajasthan-311001",
+          "beds": 0,
           "type": "Private"
         },
         {
-          "name": "Care Hospital, Nampally, Hyderabad",
-          "city": "Telangana-500001",
-          "beds": 305,
+          "name": "Government Medical College",
+          "city": "Pali",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Ananta Institute of Medical Sciences & Research Centre",
+          "city": "Rajsamand",
+          "beds": 775,
+          "type": "Private"
+        },
+        {
+          "name": "Employees State Insurance Corporation Medical College",
+          "city": "Alwar",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government RDBP Jaipuria Hospital, Jaipur",
+          "city": "Rajasthan-302018",
+          "beds": 521,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Bhilwara",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College, Rampura, Bharatpur",
+          "city": "Rajasthan-321001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Churu",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Goverment District Hospital Bundi, Bundi",
+          "city": "Rajasthan-323001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "American International Institute of Medical Sciences",
+          "city": "Bedwas",
+          "beds": 700,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College and Associated Group of Hospitals, Dungarpur",
+          "city": "Rajasthan-314001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "SK Government Hospital, Sikar",
+          "city": "Rajasthan-332001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "JLN Government Hospital, Nagaur",
+          "city": "Rajasthan-341001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Mahatma Gandhi Medical College and Hospital, Sitapur",
+          "city": "Jaipur",
+          "beds": 1400,
+          "type": "Private"
+        },
+        {
+          "name": "Government BDK Hospital, Jhunjhunu",
+          "city": "Rajasthan-333001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Rajiv Gandhi Government General Hospital, Alwar",
+          "city": "Rajasthan-301001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government Mahatma Gandhi District Hospital, Banswara",
+          "city": "Rajasthan-327001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government Hospital, Barmer",
+          "city": "Rajasthan-344001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government District Civil Hospital, Sri Ganganagar",
+          "city": "Rajasthan-335001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "MGM Government District Hospital, Hanumangarh",
+          "city": "Rajasthan-335513",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "RK Government District Hospital, Rajsamand",
+          "city": "Rajasthan-313324",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government District Saadat Hospital, Tonk",
+          "city": "Rajasthan-304001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "SSG Government District Hospital, Chittorgarh",
+          "city": "Rajasthan-312001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government General Hospital, Madhopur",
+          "city": "Rajasthan-322001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "District Hospital, Dholpur",
+          "city": "Rajasthan-328001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Jaipur National University Institute of Medical Sciences and Research Centre, Jagatpura",
+          "city": "Jaipur",
+          "beds": 810,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital, Baran",
+          "city": "Rajasthan-325205",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Geetanjali Medical College & Hospital",
+          "city": "Udaipur",
+          "beds": 1420,
+          "type": "Private"
+        },
+        {
+          "name": "General Hospital, Karauli",
+          "city": "Rajasthan-322241",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "National Institute of Medical Science & Research",
+          "city": "Jaipur",
+          "beds": 1130,
+          "type": "Private"
+        },
+        {
+          "name": "Government District Hospital, Ajmer",
+          "city": "Rajasthan-305404",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "District Hospital, Pratapgarh",
+          "city": "Rajasthan-312605",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government Amrit Kaur Hospital, Ajmer",
+          "city": "Rajasthan-305901",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "District Hospital, Sirohi",
+          "city": "Rajasthan-307001",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Dr SS Tantia Medical College Hospital & Research Centre",
+          "city": "Sri Ganganagar",
+          "beds": 330,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Dungarpur",
+          "beds": 700,
+          "type": "Government"
+        },
+        {
+          "name": "Pacific Medical College & Hospital, Bhilo Ka Bedla",
+          "city": "Udaipur",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Pacific Institute of Medical Sciences, Umarda",
+          "city": "Udaipur",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Shri Ramkaran Joshi Government District Hospital, Dausa",
+          "city": "Rajasthan-303303",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College and Bangur Hospital, Ramasiya Pali",
+          "city": "Rajasthan-306401",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "SDH Nathdwara, Nathdwara",
+          "city": "Rajasthan-313301",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "General Hospital, Jalore",
+          "city": "Rajasthan-343001",
+          "beds": 0,
           "type": "Private"
         }
       ]
     },
     {
-      "id": "chhattisgarh",
-      "name": "Chhattisgarh",
-      "total_colleges": 6,
-      "total_beds": 3835,
+      "id": "sikkim",
+      "name": "Sikkim",
+      "total_colleges": 1,
+      "total_beds": 493,
       "colleges": [
         {
-          "name": "Pt JNM Medical College",
-          "city": "Raipur",
-          "beds": 1246,
-          "type": "Private"
-        },
-        {
-          "name": "Chhattisgarh Institute of Medical Sciences",
-          "city": "Bilaspur",
-          "beds": 550,
-          "type": "Private"
-        },
-        {
-          "name": "Ramkrishna Care Hospital, Raipur",
-          "city": "Chhattisgarh-492001",
-          "beds": 359,
-          "type": "Private"
-        },
-        {
-          "name": "Late Shri Lakhi Ram Agrawal Memorial Government Medical College",
-          "city": "Raigarh",
-          "beds": 650,
-          "type": "Government"
-        },
-        {
-          "name": "JLN Main Hospital and Research Centre, Bhilai",
-          "city": "Chhattisgarh-490009",
-          "beds": 860,
-          "type": "Private"
-        },
-        {
-          "name": "Vedanta Medical Research Foundation (Balco Medical Centre), Sector 36, PO Uparwara, New Raipur",
-          "city": "Chhattisgarh-493661",
-          "beds": 170,
+          "name": "Sikkim-Manipal Institute of Medical Sciences, Gangtok",
+          "city": "Sikkim-737102",
+          "beds": 493,
           "type": "Private"
         }
       ]
@@ -2191,475 +2947,147 @@
       ]
     },
     {
-      "id": "sikkim",
-      "name": "Sikkim",
-      "total_colleges": 1,
-      "total_beds": 493,
+      "id": "telangana",
+      "name": "Telangana",
+      "total_colleges": 23,
+      "total_beds": 19345,
       "colleges": [
         {
-          "name": "Sikkim-Manipal Institute of Medical Sciences, Gangtok",
-          "city": "Sikkim-737102",
-          "beds": 493,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "assam",
-      "name": "Assam",
-      "total_colleges": 6,
-      "total_beds": 6590,
-      "colleges": [
-        {
-          "name": "Gauhati Medical College",
-          "city": "Guwahati",
-          "beds": 2185,
+          "name": "Nizams Institute of Medical Sciences",
+          "city": "Hyderabad",
+          "beds": 1498,
           "type": "Private"
         },
         {
-          "name": "Assam Medical College",
-          "city": "Dibrugarh",
-          "beds": 1365,
+          "name": "Employees State Insurance Coporation Medical College",
+          "city": "Sanath Nagar",
+          "beds": 690,
           "type": "Private"
         },
         {
-          "name": "Silchar Medical College",
-          "city": "Silchar",
-          "beds": 1256,
+          "name": "Osmania Medical College",
+          "city": "Hyderabad",
+          "beds": 4800,
           "type": "Private"
         },
         {
-          "name": "Jorhat Medical College & Hospital",
-          "city": "Jorhat",
-          "beds": 814,
-          "type": "Private"
-        },
-        {
-          "name": "Tezpur Medical College & Hospital",
-          "city": "Tezpur",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Fakhruddin Ali Ahmed Medical College",
-          "city": "Barpeta",
-          "beds": 470,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "odisha",
-      "name": "Odisha",
-      "total_colleges": 13,
-      "total_beds": 7231,
-      "colleges": [
-        {
-          "name": "SCB Medical College",
-          "city": "Cuttack",
-          "beds": 2106,
-          "type": "Private"
-        },
-        {
-          "name": "MKCG Medical College",
-          "city": "Berhampur",
-          "beds": 1140,
-          "type": "Private"
-        },
-        {
-          "name": "SUM Ultimate Medicare, Kalinga Nagar, Ghatikia, Bhubaneswar",
-          "city": "Odisha-751003",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "Veer Surendra Sai Institute of Medical Sciences and Research",
-          "city": "Burla",
-          "beds": 1071,
-          "type": "Private"
-        },
-        {
-          "name": "Pt Raghunath Murmu Medical College and Hospital",
-          "city": "Baripada",
-          "beds": 0,
-          "type": "Private"
-        },
-        {
-          "name": "Apollo Hospital, Bhubaneswar",
-          "city": "Odisha-751005",
-          "beds": 350,
-          "type": "Private"
-        },
-        {
-          "name": "Shri Jagannath Medical College and Hospital, Baliguali, Puri",
-          "city": "Odisha-752002",
-          "beds": 467,
-          "type": "Private"
-        },
-        {
-          "name": "Post Graduate Institute of Medical Education and Research & Capital Hospital",
-          "city": "Bhubaneswar",
-          "beds": 760,
-          "type": "Private"
-        },
-        {
-          "name": "Care Hospital, Bhubaneswar",
-          "city": "Odisha-751016",
-          "beds": 230,
-          "type": "Private"
-        },
-        {
-          "name": "Kalinga Hospital, Bhubaneswar",
-          "city": "Odisha-751023",
-          "beds": 250,
-          "type": "Private"
-        },
-        {
-          "name": "Utkal Institute of Medical Sciences, Bhubaneswar",
-          "city": "Odisha-751021",
-          "beds": 200,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College and Hospital (Bhima Bhoi Medical College & Hospital)",
-          "city": "Balangir",
-          "beds": 0,
-          "type": "Government"
-        },
-        {
-          "name": "Jaiprakash Hospital and Research Centre, Rourkela",
-          "city": "Odisha-769004",
-          "beds": 307,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "jammu-and-kashmir",
-      "name": "Jammu and Kashmir",
-      "total_colleges": 2,
-      "total_beds": 4320,
-      "colleges": [
-        {
-          "name": "Sher-I-Kashmir Institute of Medical Sciences",
-          "city": "Srinagar",
+          "name": "Gandhi Medical College",
+          "city": "Secunderabad",
           "beds": 1200,
           "type": "Private"
         },
         {
-          "name": "Government Medical College",
-          "city": "Jammu",
-          "beds": 3120,
-          "type": "Government"
-        }
-      ]
-    },
-    {
-      "id": "kerala",
-      "name": "Kerala",
-      "total_colleges": 26,
-      "total_beds": 21177,
-      "colleges": [
-        {
-          "name": "Government Medical College, Kozhikode",
-          "city": "Calicut",
-          "beds": 3025,
-          "type": "Government"
-        },
-        {
-          "name": "Government Medical College",
-          "city": "Thrissur",
-          "beds": 2094,
-          "type": "Government"
-        },
-        {
-          "name": "Medical College",
-          "city": "Thiruvananthapuram",
-          "beds": 2126,
+          "name": "Nizam`s Institute of Medical Sciences, Hyderabad",
+          "city": "Telangana-500082",
+          "beds": 1500,
           "type": "Private"
         },
         {
-          "name": "TD Medical College",
-          "city": "Alleppey (Allappuzha)",
-          "beds": 1050,
-          "type": "Private"
-        },
-        {
-          "name": "Malabar Institute of Medical Sciences, Kozhikode",
-          "city": "Kerala-673016",
-          "beds": 573,
-          "type": "Private"
-        },
-        {
-          "name": "Aster Medcity, Kochi",
-          "city": "Kerala-682027",
-          "beds": 500,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College, Pariyaram, Kannur (Prev. Academy of Medical Sciences, Pariyaram",
-          "city": "Kannur)",
-          "beds": 1752,
-          "type": "Government"
-        },
-        {
-          "name": "Lourdes Hospital, Kochi",
-          "city": "Kerala-682012",
-          "beds": 600,
-          "type": "Private"
-        },
-        {
-          "name": "Baby Memorial Hospital, Kozhikode",
-          "city": "Kerala-673004",
-          "beds": 600,
-          "type": "Private"
-        },
-        {
-          "name": "Kerala Institute of Medical Sciences, Thiruvananthapuram",
-          "city": "Kerala-695024",
-          "beds": 650,
-          "type": "Private"
-        },
-        {
-          "name": "Lakeshore Hospital and Research Centre, Kochi",
-          "city": "Kerala-682040",
-          "beds": 470,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College, Parippally",
-          "city": "Kollam",
-          "beds": 500,
-          "type": "Government"
-        },
-        {
-          "name": "Lisie Medical Institution, Kochi",
-          "city": "Kerala-682018",
-          "beds": 750,
-          "type": "Private"
-        },
-        {
-          "name": "Medical Trust Hospital, Kochi",
-          "city": "Kerala-682016",
-          "beds": 575,
-          "type": "Private"
-        },
-        {
-          "name": "Rajagiri Hospital, Ernakulam",
-          "city": "Kerala-683112",
-          "beds": 572,
-          "type": "Private"
-        },
-        {
-          "name": "Caritas Hospital, Kottayam",
-          "city": "Kerala-686630",
-          "beds": 660,
-          "type": "Private"
-        },
-        {
-          "name": "Malabar Institute of Medical Sciences Ltd, Kannur",
-          "city": "Kerala-670621",
-          "beds": 425,
-          "type": "Private"
-        },
-        {
-          "name": "IQRAA International Hospital and Research Centre, Kozhikode",
-          "city": "Kerala-673009",
-          "beds": 510,
-          "type": "Private"
-        },
-        {
-          "name": "Ananthapuri Hospital and Research Institute, Thiruvananthapuram",
-          "city": "Kerala-695024",
-          "beds": 400,
-          "type": "Private"
-        },
-        {
-          "name": "PRS Hospital, Thiruvananthapuram",
-          "city": "Kerala-695002",
-          "beds": 300,
-          "type": "Private"
-        },
-        {
-          "name": "District Hospital, Palakkad",
-          "city": "Kerala-678001",
-          "beds": 544,
-          "type": "Private"
-        },
-        {
-          "name": "Mar Sleeva Medicity Palai, Cherpunkal, Kottayam",
-          "city": "Kerala-686584",
-          "beds": 648,
-          "type": "Private"
-        },
-        {
-          "name": "Kozhikode District Co-Operative Hospital, Eranhipalam",
-          "city": "Kerala-673006",
-          "beds": 175,
-          "type": "Private"
-        },
-        {
-          "name": "Polakulath Narayanan Renai Medicity Multi Super Specialty Hospital, Kochi",
-          "city": "Kerala-682025",
-          "beds": 205,
-          "type": "Private"
-        },
-        {
-          "name": "Government General Hospital, Kochi",
-          "city": "Kerala-682011",
-          "beds": 783,
-          "type": "Government"
-        },
-        {
-          "name": "Little Flower Hospital and Research Centre, Angamaly",
-          "city": "Kerala-683572",
-          "beds": 690,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "goa",
-      "name": "Goa",
-      "total_colleges": 1,
-      "total_beds": 1160,
-      "colleges": [
-        {
-          "name": "Goa Medical College",
-          "city": "Panaji",
-          "beds": 1160,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "gujarat",
-      "name": "Gujarat",
-      "total_colleges": 14,
-      "total_beds": 9819,
-      "colleges": [
-        {
-          "name": "BJ Medical College",
-          "city": "Ahmedabad",
-          "beds": 1557,
-          "type": "Private"
-        },
-        {
-          "name": "Apollo Hospital International, Plot 1A, GIDC Estate, Bhat Gandhinagar",
-          "city": "Gujarat-382428",
-          "beds": 300,
-          "type": "Private"
-        },
-        {
-          "name": "Medical College",
-          "city": "Baroda",
-          "beds": 1250,
-          "type": "Private"
-        },
-        {
-          "name": "MP Shah Medical College",
-          "city": "Jamnagar",
-          "beds": 1250,
-          "type": "Private"
-        },
-        {
-          "name": "Government Medical College",
-          "city": "Surat",
+          "name": "Kakatiya Medical College",
+          "city": "Warangal",
           "beds": 1150,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Nizamabad",
+          "beds": 780,
           "type": "Government"
         },
         {
-          "name": "Pandit Deendayal Upadhyay Medical College",
-          "city": "Rajkot",
-          "beds": 750,
+          "name": "AIG Hospital, Hyderabad",
+          "city": "Telangana-500032",
+          "beds": 720,
           "type": "Private"
         },
         {
-          "name": "GMERS Medical College, Gandhinagar",
-          "city": "Gujarat-382016",
-          "beds": 980,
+          "name": "Yashoda Hospital, SP Road, Secunderabad",
+          "city": "Telangana-500003",
+          "beds": 1026,
           "type": "Private"
         },
         {
-          "name": "Shalby Hospital, SG Highway, Ahmedabad",
-          "city": "Gujarat-380015",
+          "name": "Krishna Institute of Medical Sciences, Secunderabad",
+          "city": "Telangana-500003",
+          "beds": 675,
+          "type": "Private"
+        },
+        {
+          "name": "Rajiv Gandhi Institute of Medical Sciences",
+          "city": "Adilabad",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Indo-American Cancer Institute and Research Centre, Hyderabad",
+          "city": "Telangana-500034",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Continental Hospital, Hyderabad",
+          "city": "Telangana-500032",
+          "beds": 587,
+          "type": "Private"
+        },
+        {
+          "name": "Care Hospital - Hi Tech City, Gachibowli, Hyderabad",
+          "city": "Telangana-500032",
+          "beds": 220,
+          "type": "Private"
+        },
+        {
+          "name": "Apollo Hospital, Jubilee Hills, Hyderabad",
+          "city": "Telangana-500033",
+          "beds": 550,
+          "type": "Private"
+        },
+        {
+          "name": "Yashoda Health Care Services Pvt Ltd, Khanamet Village, Serilingampally(M), Hyderabad",
+          "city": "Telangana-500084",
+          "beds": 600,
+          "type": "Private"
+        },
+        {
+          "name": "Yashoda Super Speciality Hospital, Malakpet, Hyderabad",
+          "city": "Telangana-500036",
+          "beds": 550,
+          "type": "Private"
+        },
+        {
+          "name": "Yashoda Health Care Services Pvt Ltd, Somajiguda, Hyderabad, Telangana-500082 (YHSPL) (Prev. Yashoda Super Speciality Hospital",
+          "city": "Somajiguda)",
+          "beds": 550,
+          "type": "Private"
+        },
+        {
+          "name": "Care Hospital, Banjara Hills, Hyderabad",
+          "city": "Telangana-500034",
+          "beds": 444,
+          "type": "Private"
+        },
+        {
+          "name": "KIMS SunShine Hospital, Begumpet, Hyderabad, Telangana-500016 (Prev. SunShine Hospital, Begumpet",
+          "city": "Hyderabad)",
+          "beds": 300,
+          "type": "Private"
+        },
+        {
+          "name": "MNJ Institute of Oncology and Cancer Regional Center, Lakdi Ka Oil, Hyderabad",
+          "city": "Telangana-500004",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "KIMS Hospital, Hyderabad",
+          "city": "Telangana-500084",
           "beds": 200,
           "type": "Private"
         },
         {
-          "name": "Smt GR Doshi and Smt KM Mehta Institute of Kidney Diseases and Research Centre",
-          "city": "Ahmedabad",
-          "beds": 400,
-          "type": "Private"
-        },
-        {
-          "name": "SAL Hospital and Medical Institute, Ahmedabad",
-          "city": "Gujarat-380054",
-          "beds": 230,
-          "type": "Private"
-        },
-        {
-          "name": "GMERS Medical College and General Hospital, Himmatnagar",
-          "city": "Gujarat-383001",
-          "beds": 750,
-          "type": "Private"
-        },
-        {
-          "name": "GMERS Medical College and Hospital, Junagadh",
-          "city": "Gujarat-362001",
-          "beds": 650,
-          "type": "Private"
-        },
-        {
-          "name": "Gujarat MRI Centre, Ahmedabad",
-          "city": "Gujarat-380009",
-          "beds": 102,
-          "type": "Private"
-        },
-        {
-          "name": "The Gujarat Research and Medical Institute (Rajasthan Hospitals), Ahmedabad",
-          "city": "Gujarat-380004",
-          "beds": 250,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "chandigarh",
-      "name": "Chandigarh",
-      "total_colleges": 2,
-      "total_beds": 1467,
-      "colleges": [
-        {
-          "name": "Government Medical College",
-          "city": "Chandigarh",
-          "beds": 967,
-          "type": "Government"
-        },
-        {
-          "name": "Government Multi Specialty Hospital, Sector-16, Chandigarh",
-          "city": "Chandigarh-160016",
-          "beds": 500,
-          "type": "Government"
-        }
-      ]
-    },
-    {
-      "id": "manipur",
-      "name": "Manipur",
-      "total_colleges": 2,
-      "total_beds": 1717,
-      "colleges": [
-        {
-          "name": "Regional Institute of Medical Sciences",
-          "city": "Imphal",
-          "beds": 1074,
-          "type": "Private"
-        },
-        {
-          "name": "Jawaharlal Nehru Institute of Medical Sciences, Porompet",
-          "city": "Imphal",
-          "beds": 643,
+          "name": "Care Hospital, Nampally, Hyderabad",
+          "city": "Telangana-500001",
+          "beds": 305,
           "type": "Private"
         }
       ]
@@ -2679,99 +3107,1195 @@
       ]
     },
     {
-      "id": "mizoram",
-      "name": "Mizoram",
-      "total_colleges": 1,
-      "total_beds": 300,
+      "id": "uttar-pradesh",
+      "name": "Uttar Pradesh",
+      "total_colleges": 119,
+      "total_beds": 58353,
       "colleges": [
         {
-          "name": "Civil Hospital, Aizawl",
-          "city": "Mizoram-796001",
+          "name": "Sanjay Gandhi Postgraduate Institute of Medical Sciences",
+          "city": "Lucknow",
+          "beds": 1609,
+          "type": "Private"
+        },
+        {
+          "name": "Moti Lal Nehru Medical College",
+          "city": "Allahabad",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "King George Medical University",
+          "city": "Lucknow",
+          "beds": 4500,
+          "type": "Private"
+        },
+        {
+          "name": "PL Sharma District Hospital, Meerut",
+          "city": "Uttar Pradesh-250002",
+          "beds": 320,
+          "type": "Government"
+        },
+        {
+          "name": "District Combined Hospital, Joya Road, Amroha",
+          "city": "Uttar Pradesh-244221",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Ursala Horsman Memorial Hospital, Kanpur",
+          "city": "Uttar Pradesh-208001",
+          "beds": 550,
+          "type": "Private"
+        },
+        {
+          "name": "Lok Bandhu Raj Narayan Combined Hospital, LDA Colony, Lucknow",
+          "city": "Uttar Pradesh-226012",
+          "beds": 318,
+          "type": "Private"
+        },
+        {
+          "name": "Autonomous State Medical College and Allied Pandit Ram Prasad Bismil Memorial Hospital, Shahjahanpur",
+          "city": "Uttar Pradesh-242001",
+          "beds": 312,
+          "type": "Government"
+        },
+        {
+          "name": "Divisional District Hospital, Balarampur, Harra ki Chungi Sadar, Azamgarh",
+          "city": "Uttar Pradesh-276001",
+          "beds": 312,
+          "type": "Government"
+        },
+        {
+          "name": "Veerangana Awanti Bai Women Hospital, Lucknow",
+          "city": "Uttar Pradesh-226018",
+          "beds": 326,
+          "type": "Private"
+        },
+        {
+          "name": "District Women Hospital, Sahabuddinpur, Jaunpur",
+          "city": "Uttar Pradesh-222001",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Maharishi Vashistha Autonomous State Medical College and Opec Hospital, Rampur",
+          "city": "Uttar Pradesh-272124",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government Institute of Medical Sciences, Greater Noida",
+          "city": "Uttar Pradesh-201310",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Balrampur Hospital, Lucknow",
+          "city": "Uttar Pradesh-226018",
+          "beds": 756,
+          "type": "Private"
+        },
+        {
+          "name": "Sri Ram Hospital, Near Ayodhya Junction Railway Station, Ayodhya",
+          "city": "Uttar Pradesh-224123",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Ram Manohar Lohia Institute of Medical Sciences",
+          "city": "Lucknow",
+          "beds": 1368,
+          "type": "Private"
+        },
+        {
+          "name": "UP Rural Instiute of Medical Sciences and Research, Etawah",
+          "city": "Uttar Pradesh-206130",
+          "beds": 1078,
+          "type": "Private"
+        },
+        {
+          "name": "Pandit Deen Dayal Upadhyay Government Hospital, Pandeypur, Varanasi",
+          "city": "Uttar Pradesh-221002",
+          "beds": 240,
+          "type": "Government"
+        },
+        {
+          "name": "SN Medical College",
+          "city": "Agra",
+          "beds": 976,
+          "type": "Private"
+        },
+        {
+          "name": "Rana Beni Madhav Singh District Hospital (RBMS), Niralanagar, Raebareli",
+          "city": "Uttar Pradesh-229001",
+          "beds": 301,
+          "type": "Government"
+        },
+        {
+          "name": "Rani Durgavati Medical College, Banda",
+          "city": "Uttar Pradesh-210001",
+          "beds": 430,
+          "type": "Private"
+        },
+        {
+          "name": "District Male Hospital, Sai Ka Takia, Agra",
+          "city": "Uttar Pradesh-282001",
+          "beds": 150,
+          "type": "Private"
+        },
+        {
+          "name": "Tej Bahadur Sapru Hospital, Allahabad",
+          "city": "Uttar Pradesh-211002",
+          "beds": 209,
+          "type": "Private"
+        },
+        {
+          "name": "LLRM Medical College",
+          "city": "Meerut",
+          "beds": 1090,
+          "type": "Private"
+        },
+        {
+          "name": "Pandit Deen Dayal Upadhyay Divisional District Hospital, Civil Line, Moradabad",
+          "city": "Uttar Pradesh-244001",
+          "beds": 220,
+          "type": "Government"
+        },
+        {
+          "name": "BRD Medical College",
+          "city": "Gorakhpur",
+          "beds": 1050,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital, Budaun",
+          "city": "Uttar Pradesh-243601",
+          "beds": 234,
+          "type": "Government"
+        },
+        {
+          "name": "GSVM Medical College",
+          "city": "Kanpur",
+          "beds": 2083,
+          "type": "Private"
+        },
+        {
+          "name": "Netaji Subhash Chandra Bose District Hospital, Gorakhpur",
+          "city": "Uttar Pradesh-273001",
+          "beds": 305,
+          "type": "Government"
+        },
+        {
+          "name": "Autonomous State Medical College, Ayodhya",
+          "city": "Uttar Pradesh-224133",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Dr Shyama Prasad Mukherjee (Civil) Hospital, Lucknow",
+          "city": "Uttar Pradesh-226001",
+          "beds": 401,
+          "type": "Private"
+        },
+        {
+          "name": "Swami Kalyan Dev District Hospital, Laddhawala, Muzaffarnagar",
+          "city": "Uttar Pradesh-251001",
+          "beds": 175,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College and Super Facility Hospital, Azamgarh",
+          "city": "Uttar Pradesh-276128",
+          "beds": 550,
+          "type": "Government"
+        },
+        {
+          "name": "District Women Hospital, Barabanki, Naka Satrikh",
+          "city": "Uttar Pradesh-225001",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Government TB Hospital, Teliyarganj, Prayagraj, Uttar Pradesh-211004 (Joint Programme with Moti Lal Nehru Medical College, George Town",
+          "city": "Prayagraj as Secondary Hospital)",
+          "beds": 170,
+          "type": "Government"
+        },
+        {
+          "name": "District Male Hospital, Aspatal Cauraha, Basti, Uttar Pradesh",
+          "city": "Uttar Pradesh-272002",
           "beds": 300,
           "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "andaman-and-nicobar-islands",
-      "name": "Andaman and Nicobar Islands",
-      "total_colleges": 1,
-      "total_beds": 545,
-      "colleges": [
+        },
         {
-          "name": "Andaman and Nicobar Islands Institute of Medical Science, Port Blair",
-          "city": "Andaman And Nicobar Islands-744104",
-          "beds": 545,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "meghalaya",
-      "name": "Meghalaya",
-      "total_colleges": 1,
-      "total_beds": 594,
-      "colleges": [
-        {
-          "name": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences",
-          "city": "Shillong",
-          "beds": 594,
-          "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "dadra-and-nagar-haveli",
-      "name": "Dadra and Nagar Haveli",
-      "total_colleges": 1,
-      "total_beds": 650,
-      "colleges": [
-        {
-          "name": "NAMO Medical Education and Research Institute, Silvassa (Prev. Shri Vinoba Bhave Institute of Medical Sciences), (Government Medical College",
-          "city": "Silvassa)",
-          "beds": 650,
+          "name": "Kalyan Singh Government Medical College, Bulandshahr",
+          "city": "Uttar Pradesh-203001",
+          "beds": 500,
           "type": "Government"
-        }
-      ]
-    },
-    {
-      "id": "arunachal-pradesh",
-      "name": "Arunachal Pradesh",
-      "total_colleges": 1,
-      "total_beds": 500,
-      "colleges": [
+        },
         {
-          "name": "Tomo Riba Institute of Health & Medical Sciences",
-          "city": "Naharlagun",
+          "name": "District Combined Hospital, Sec 23, Sanjay Nagar, Ghaziabad",
+          "city": "Uttar Pradesh-201002",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Autonomous State Medical College (ASMC), Pilibhit, Bithora Kalan",
+          "city": "Uttar Pradesh-262001",
+          "beds": 420,
+          "type": "Government"
+        },
+        {
+          "name": "Lal Bahadur Shastri Hospital, Ramnagar, Varanasi",
+          "city": "Uttar Pradesh-221008",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Raja Pratap Bahadur Hospital Allied with Dr Sonelal Patel Autonomous State Medical College, Pratapgarh",
+          "city": "Uttar Pradesh-230001",
+          "beds": 336,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College, Badaun",
+          "city": "Uttar Pradesh-243601",
+          "beds": 234,
+          "type": "Government"
+        },
+        {
+          "name": "Shri Shiv Prasad Gupta Divisional District Hospital, Varanasi",
+          "city": "Uttar Pradesh-221001",
+          "beds": 316,
+          "type": "Government"
+        },
+        {
+          "name": "MRA Medical College, Ambedkar Nagar",
+          "city": "Uttar Pradesh-224227",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "District Combined Hospital, Sec 39, Gautam Budh Nagar, Noida",
+          "city": "Uttar Pradesh-201301",
+          "beds": 240,
+          "type": "Private"
+        },
+        {
+          "name": "Manayawar Kanshi Ram Distrcit Combined Hospital and Trauma Centre, Kanpur Nagar",
+          "city": "Uttar Pradesh-208007",
+          "beds": 100,
+          "type": "Private"
+        },
+        {
+          "name": "District Combined Hospital, Vrindavan",
+          "city": "Uttar Pradesh-281121",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Maharaja Suhel Dev Medical College and Mahrishi Balark Hospital, Bahraich",
+          "city": "Uttar Pradesh-271801",
+          "beds": 550,
+          "type": "Private"
+        },
+        {
+          "name": "Combined District Hospital, GT Road, Near East Bypass",
+          "city": "Kannauj-209725",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "District Women Hospital, Rekab Ganj",
+          "city": "Uttar Pradesh-224001",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Maharani Laxmi Bai Medical College",
+          "city": "Jhansi",
+          "beds": 700,
+          "type": "Private"
+        },
+        {
+          "name": "Mental Hospital, Varanasi",
+          "city": "Uttar Pradesh-221002",
+          "beds": 361,
+          "type": "Private"
+        },
+        {
+          "name": "District Combined Hospital, Mukhyalay, Maharajganj",
+          "city": "Uttar Pradesh-273303",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Autonomous State Medical College, Sitapur Road, Hardoi",
+          "city": "Uttar Pradesh-241001",
+          "beds": 332,
+          "type": "Government"
+        },
+        {
+          "name": "Shaikh-UL-Hind Maulana Mahmood Hasan Medical College",
+          "city": "Saharanpur",
           "beds": 500,
           "type": "Private"
-        }
-      ]
-    },
-    {
-      "id": "nagaland",
-      "name": "Nagaland",
-      "total_colleges": 1,
-      "total_beds": 300,
-      "colleges": [
+        },
         {
-          "name": "Naga Hospital Authority, Kohima",
-          "city": "Nagaland-797001",
+          "name": "Post Graduate Institute of Child Health",
+          "city": "Noida (Prev. Super Speciality Paediatric Hospital & Post Graduate Teaching Institute)",
+          "beds": 312,
+          "type": "Private"
+        },
+        {
+          "name": "Rafi Ahmad Kidwai Memorial District Male Hospital, Nawabganj, Faizabad Road, Barabanki",
+          "city": "Uttar Pradesh-225001",
+          "beds": 140,
+          "type": "Private"
+        },
+        {
+          "name": "Autonomous State Medical College, Tiloi, Amethi",
+          "city": "Uttar Pradesh-229309",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Veerangana Avantibai Lodhi Autonomous State Medical College, Siraon, Etah, Uttar Pradesh-207001 (Prev. Autonomous State Medical College, Siraon",
+          "city": "Etah)",
           "beds": 300,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Faizabad",
+          "beds": 300,
+          "type": "Government"
+        },
+        {
+          "name": "Government Institute of Medical Sciences, Kasna",
+          "city": "Greater Noida",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Rajkiya Medical College",
+          "city": "Jalaun",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "MRA Medical College",
+          "city": "Ambedkarnagar",
+          "beds": 490,
+          "type": "Private"
+        },
+        {
+          "name": "Uttar Pradesh University of Medical Sciences, Etawah (Prev. UP Rural Institute of Medical Science & Research",
+          "city": "Etawah)",
+          "beds": 1268,
+          "type": "Private"
+        },
+        {
+          "name": "Autonomous State Medical College, Firozabad (Government Medical College",
+          "city": "Firozabad)",
+          "beds": 517,
+          "type": "Government"
+        },
+        {
+          "name": "Dr Bhimrao Ramji Ambedkar Government Medical College",
+          "city": "Kannauj",
+          "beds": 470,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Shahjhanpur",
+          "beds": 460,
+          "type": "Government"
+        },
+        {
+          "name": "Regional Institute of Ophthalmology, Sitapur (Prev. Nehru Institute of Ophthalmology",
+          "city": "Sitapur)",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Autonomous State Medical College",
+          "city": "Etah",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Government Allopathic Medical College",
+          "city": "Banda",
+          "beds": 430,
+          "type": "Government"
+        },
+        {
+          "name": "Institute of Mental Health and Hospital",
+          "city": "Agra",
+          "beds": 718,
+          "type": "Private"
+        },
+        {
+          "name": "Maharaja Suheldev Autonomous State Medical College, Bahraich (Government Medical College",
+          "city": "Bahraich)",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Uma Nath Singh Autonomous State Medical College",
+          "city": "Jaunpur",
+          "beds": 394,
+          "type": "Government"
+        },
+        {
+          "name": "Sharda School of Medical Sciences & Research",
+          "city": "Greater Noida (Prev. School of Medical Sciences & Research)",
+          "beds": 1200,
+          "type": "Private"
+        },
+        {
+          "name": "Muzaffarnagar Medical College",
+          "city": "Muzaffarnagar",
+          "beds": 857,
+          "type": "Private"
+        },
+        {
+          "name": "KD Medical College Hospital & Research Centre",
+          "city": "Mathura",
+          "beds": 720,
+          "type": "Private"
+        },
+        {
+          "name": "Shri Ram Murti Smarak Institute of Medical Sciences",
+          "city": "Bareilly",
+          "beds": 950,
+          "type": "Private"
+        },
+        {
+          "name": "Subharti Medical College",
+          "city": "Meerut",
+          "beds": 938,
+          "type": "Private"
+        },
+        {
+          "name": "Hind Institute of Medical Sciences",
+          "city": "Barabanki",
+          "beds": 580,
+          "type": "Private"
+        },
+        {
+          "name": "Saraswati Institute of Medical Sciences",
+          "city": "Hapur",
+          "beds": 851,
+          "type": "Private"
+        },
+        {
+          "name": "Heritage Institute of Medical Sciences",
+          "city": "Varanasi",
+          "beds": 735,
+          "type": "Private"
+        },
+        {
+          "name": "Noida International Institute of Medical Sciences",
+          "city": "Greater Noida",
+          "beds": 330,
+          "type": "Private"
+        },
+        {
+          "name": "United Institute of Medical Sciences",
+          "city": "Allahabad",
+          "beds": 360,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College & Super facility Hospital",
+          "city": "Azamgarh",
+          "beds": 550,
+          "type": "Government"
+        },
+        {
+          "name": "National Capital Region Institute of Medical Sciences",
+          "city": "Meerut",
+          "beds": 680,
+          "type": "Private"
+        },
+        {
+          "name": "Rama Medical College Hospital and Research Centre",
+          "city": "Hapur",
+          "beds": 1259,
+          "type": "Private"
+        },
+        {
+          "name": "GS Medical College & Hospital, Pilkhuwa",
+          "city": "Hapur",
+          "beds": 1130,
+          "type": "Private"
+        },
+        {
+          "name": "Krishna Mohan Medical College & Hospital",
+          "city": "Mathura",
+          "beds": 700,
+          "type": "Private"
+        },
+        {
+          "name": "Era Lucknow Medical College",
+          "city": "Lucknow",
+          "beds": 850,
+          "type": "Private"
+        },
+        {
+          "name": "Rama Medical College and Hospital",
+          "city": "Kanpur",
+          "beds": 730,
+          "type": "Private"
+        },
+        {
+          "name": "Venkateshwara Institute of Medical Sciences",
+          "city": "Gajraula",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Teerthanker Mahaveer Medical College",
+          "city": "Moradabad",
+          "beds": 1000,
+          "type": "Private"
+        },
+        {
+          "name": "Hind Institute of Medical Sciences",
+          "city": "Sitapur",
+          "beds": 700,
+          "type": "Private"
+        },
+        {
+          "name": "Rohilkhand Medical College & Hospital",
+          "city": "Bareilly",
+          "beds": 720,
+          "type": "Private"
+        },
+        {
+          "name": "Dr KNS Memorial Institute of Medical Sciences, Barabanki (Prev. Mayo Institute of Medical Sciences",
+          "city": "Barabanki)",
+          "beds": 736,
+          "type": "Private"
+        },
+        {
+          "name": "Prasad Institute of Medical Sciences",
+          "city": "Lucknow",
+          "beds": 410,
+          "type": "Private"
+        },
+        {
+          "name": "Autonomous State Medical College, Rampur, Basti (Government Medical College, Rampur",
+          "city": "Basti)",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "SKS Hospital Medical College & Research Centre",
+          "city": "Mathura",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Naraina Medical College & Research Centre",
+          "city": "Kanpur",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Varun Arjun Medical College",
+          "city": "Shahjahanpur",
+          "beds": 770,
+          "type": "Private"
+        },
+        {
+          "name": "Rajshree Medical Research Institute",
+          "city": "Bareilly",
+          "beds": 740,
+          "type": "Private"
+        },
+        {
+          "name": "TS Misra Medical College & Hospital, Amusi",
+          "city": "Lucknow",
+          "beds": 735,
+          "type": "Private"
+        },
+        {
+          "name": "FH Medical College & Hospital, Etamdapur",
+          "city": "Agra",
+          "beds": 932,
+          "type": "Private"
+        },
+        {
+          "name": "Saraswati Medical College",
+          "city": "Unnao",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Integral Institute of Medical Sciences & Research",
+          "city": "Lucknow",
+          "beds": 540,
+          "type": "Private"
+        },
+        {
+          "name": "Career Institute of Medical Sciences & Hospital",
+          "city": "Lucknow",
+          "beds": 600,
+          "type": "Private"
+        },
+        {
+          "name": "Autonomous State Medical College",
+          "city": "Mirzapur",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Autonomous State Medical College",
+          "city": "Fatehpur",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Autonomous State Medical College",
+          "city": "Pratapgarh",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Maharshi Vishwamitra Autonomous State Medical College, Ghazipur",
+          "city": "Uttar Pradesh",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Autonomous State Medical College",
+          "city": "Hardoi",
+          "beds": 332,
+          "type": "Government"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Badaun",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Autonomous State Medical College",
+          "city": "Siddharthnagar",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Maharshi Devraha Baba Autonomous State Medical College",
+          "city": "Deoria",
+          "beds": 340,
+          "type": "Government"
+        },
+        {
+          "name": "Autonomous State Medical College Society and SNM District Hospital, Firozabad",
+          "city": "Uttar Pradesh-283203",
+          "beds": 244,
+          "type": "Government"
+        },
+        {
+          "name": "District Women Hospital, Raebareli",
+          "city": "Uttar Pradesh-229001",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College, Kannauj",
+          "city": "Uttar Pradesh-209732",
+          "beds": 470,
+          "type": "Government"
+        },
+        {
+          "name": "Maharana Pratap District Combined Hospital, Bareilly",
+          "city": "Uttar Pradesh-243003",
+          "beds": 325,
+          "type": "Private"
+        },
+        {
+          "name": "Dr Ram Manohar Lohia Institute of Medical Sciences, Lucknow",
+          "city": "Uttar Pradesh-226010",
+          "beds": 1368,
           "type": "Private"
         }
       ]
     },
     {
-      "id": "ladakh",
-      "name": "Ladakh",
-      "total_colleges": 1,
-      "total_beds": 280,
+      "id": "uttarakhand",
+      "name": "Uttarakhand",
+      "total_colleges": 9,
+      "total_beds": 5074,
       "colleges": [
         {
-          "name": "SNM Hospital, Old Leh Road, Leh",
-          "city": "Ladakh-194101",
-          "beds": 280,
+          "name": "Doon Medical College",
+          "city": "Dehradun",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College, Haldwani (Prev. Uttarakhand Forest Hospital Trust Medical College",
+          "city": "Haldwani)",
+          "beds": 600,
+          "type": "Government"
+        },
+        {
+          "name": "Himalayan Institute of Medical Sciences",
+          "city": "Dehradun",
+          "beds": 1200,
+          "type": "Private"
+        },
+        {
+          "name": "Soban Singh Jeena Government Institute of Medical Science & Research",
+          "city": "Almora",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Shri Guru Ram Rai Institute of Medical & Health Sciences",
+          "city": "Dehradun",
+          "beds": 1250,
+          "type": "Private"
+        },
+        {
+          "name": "VCSG Government Institute of Medical Science and Research and HNB Base Teaching Hospital, Pauri Garhwal",
+          "city": "Uttarakhand-246174",
+          "beds": 774,
+          "type": "Government"
+        },
+        {
+          "name": "Gautam Buddha Chikitsa Mahavidyalaya",
+          "city": "Dehradun",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Veer Chandra Singh Garhwali Government Medical Science & Research Institute, Srinagar",
+          "city": "Pauri Garhwal",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "The Hans Foundation General Hospital, Satpuli, Chamoli Sain, Banghat",
+          "city": "Uttarakhand-246172",
+          "beds": 0,
+          "type": "Private"
+        }
+      ]
+    },
+    {
+      "id": "west-bengal",
+      "name": "West Bengal",
+      "total_colleges": 67,
+      "total_beds": 39739,
+      "colleges": [
+        {
+          "name": "Institute of Postgraduate Medical Education & Research",
+          "city": "Kolkata",
+          "beds": 2300,
+          "type": "Private"
+        },
+        {
+          "name": "Government Medical College",
+          "city": "Kolkata",
+          "beds": 2668,
+          "type": "Government"
+        },
+        {
+          "name": "Nilratan Sircar Medical College",
+          "city": "Kolkata",
+          "beds": 1920,
+          "type": "Private"
+        },
+        {
+          "name": "Calcutta National Medical College",
+          "city": "Kolkata",
+          "beds": 1470,
+          "type": "Private"
+        },
+        {
+          "name": "RG Kar Medical College",
+          "city": "Kolkata",
+          "beds": 1663,
+          "type": "Private"
+        },
+        {
+          "name": "Employees State Insurance Corporation Medical College, Joka",
+          "city": "Kolkata",
+          "beds": 470,
+          "type": "Government"
+        },
+        {
+          "name": "Vivekananda Institute of Medical Sciences",
+          "city": "Kolkata",
+          "beds": 684,
+          "type": "Private"
+        },
+        {
+          "name": "Bankura Sammilani Medical College",
+          "city": "Bankura",
+          "beds": 1441,
+          "type": "Private"
+        },
+        {
+          "name": "Malda Medical College & Hospital",
+          "city": "Malda",
+          "beds": 700,
+          "type": "Private"
+        },
+        {
+          "name": "Midnapore Medical College",
+          "city": "Midnapore",
+          "beds": 1051,
+          "type": "Private"
+        },
+        {
+          "name": "Burdwan Medical College",
+          "city": "Burdwan",
+          "beds": 1099,
+          "type": "Private"
+        },
+        {
+          "name": "College of Medicine and Sagore Dutta Hospital",
+          "city": "Kolkata",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "North Bengal Medical College",
+          "city": "Darjeeling",
+          "beds": 843,
+          "type": "Private"
+        },
+        {
+          "name": "School of Tropical Medicine",
+          "city": "Kolkata",
+          "beds": 173,
+          "type": "Private"
+        },
+        {
+          "name": "Murshidabad Medical College & Hospitals",
+          "city": "Murshidabad",
+          "beds": 1208,
+          "type": "Private"
+        },
+        {
+          "name": "Command Hospital",
+          "city": "Kolkata",
+          "beds": 760,
+          "type": "Private"
+        },
+        {
+          "name": "KPC Medical College, Jadavpur",
+          "city": "Kolkata",
+          "beds": 750,
+          "type": "Private"
+        },
+        {
+          "name": "Dr BC Roy Post Graduate Institute of Paediatric Sciences",
+          "city": "Kolkata",
+          "beds": 620,
+          "type": "Private"
+        },
+        {
+          "name": "Jagannath Gupta Institute of Medical Sciences & Hospital",
+          "city": "Kolkata",
+          "beds": 575,
+          "type": "Private"
+        },
+        {
+          "name": "Institute of Child Health",
+          "city": "Kolkata",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Chittaranjan Seva Sadan Hospital",
+          "city": "Kolkata",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Gouri Devi Institute of Medical Sciences and Hospital",
+          "city": "Durgapur",
+          "beds": 920,
+          "type": "Private"
+        },
+        {
+          "name": "ICARE Institute of Medical Sciences & Research, Haldia",
+          "city": "Purba Midanpore",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Shri Ramkrishna Institute of Medical Sciences & Sanaka Hospitals",
+          "city": "Durgapur",
+          "beds": 1100,
+          "type": "Private"
+        },
+        {
+          "name": "IQ-City Medical College",
+          "city": "Burdwan",
+          "beds": 800,
+          "type": "Private"
+        },
+        {
+          "name": "College of Medicine and JNM Hospital, Kalyani",
+          "city": "Nadia",
+          "beds": 450,
+          "type": "Private"
+        },
+        {
+          "name": "Diamond Harbour Government Medical College and Hospital",
+          "city": "West Bengal",
+          "beds": 752,
+          "type": "Government"
+        },
+        {
+          "name": "Tamralipto Government Medical College and Hospital, Tamluk",
+          "city": "West Bengal-721636",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "All India Institute of Hygiene & Public Health",
+          "city": "Kolkata",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "JIS School of Medical Science & Research",
+          "city": "Howrah",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "North 24 Parganas District Hospital, Kolkata",
+          "city": "West Bengal-700124",
+          "beds": 600,
+          "type": "Government"
+        },
+        {
+          "name": "Coochbehar Government Medical College and Hospital, Coochbehar",
+          "city": "West Bengal-736101",
+          "beds": 410,
+          "type": "Government"
+        },
+        {
+          "name": "District Hospital, Howrah",
+          "city": "West Bengal-711101",
+          "beds": 642,
+          "type": "Government"
+        },
+        {
+          "name": "MR Bangur Hospital, Kolkata",
+          "city": "West Bengal-700033",
+          "beds": 600,
+          "type": "Private"
+        },
+        {
+          "name": "Infectious Diseases & Beliaghata General Hospital, 57 Beliaghata Main Road, Kolkata",
+          "city": "West Bengal-700010",
+          "beds": 660,
+          "type": "Private"
+        },
+        {
+          "name": "Diamond Harbour Government Medical College And Hospital, Harindanga",
+          "city": "West Bengal-743331",
+          "beds": 726,
+          "type": "Government"
+        },
+        {
+          "name": "Asansol District Hospital, Asansol",
+          "city": "West Bengal-713301",
+          "beds": 750,
+          "type": "Government"
+        },
+        {
+          "name": "Chittaranjan Seva Sadan College of Obstetrics, Gynaecology and Child Health, Kolkata",
+          "city": "West Bengal-700026",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Jalpaiguri Government Medical College and Hospital, Jalpaiguri, West Bengal-735101 (Prev. District Hospital",
+          "city": "Jalpaiguri)",
+          "beds": 1000,
+          "type": "Government"
+        },
+        {
+          "name": "District Hospital, Nadia",
+          "city": "West Bengal-741101",
+          "beds": 1018,
+          "type": "Government"
+        },
+        {
+          "name": "Imambara District Hospital, Hooghly",
+          "city": "West Bengal-712101",
+          "beds": 650,
+          "type": "Government"
+        },
+        {
+          "name": "Rampurhat Government Medical College and Hospital, Birbhum",
+          "city": "West Bengal-731224",
+          "beds": 626,
+          "type": "Government"
+        },
+        {
+          "name": "Raiganj Government Medical College and Hospital, Uttar Dinajpur",
+          "city": "West Bengal-733130",
+          "beds": 500,
+          "type": "Government"
+        },
+        {
+          "name": "Durgapur Sub Divisional Hospital, Bidhannagar, Durgapur",
+          "city": "West Bengal-713206",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Kharagpur Sub-Divisional Hospital, Kharagpur",
+          "city": "West Bengal-721301",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Arambagh Sub Divisional / Super Speciality Hospital, Hooghly",
+          "city": "West Bengal-712601",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Deben Mahato (Sadar) Hospital, Purulia",
+          "city": "West Bengal-723101",
+          "beds": 548,
+          "type": "Private"
+        },
+        {
+          "name": "Walsh SDH, Serampore, Hooghly",
+          "city": "West Bengal-712201",
+          "beds": 500,
+          "type": "Private"
+        },
+        {
+          "name": "Nil Ratan Sircar Medical College Hospital, 138, AJC Bose Road, Sealdah, Kolkata",
+          "city": "West Bengal-700014",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Suri Sadar Hospital, Birbhum",
+          "city": "West Bengal-731101",
+          "beds": 766,
+          "type": "Private"
+        },
+        {
+          "name": "Siliguri District Hospital, Darjeeling",
+          "city": "West Bengal-734001",
+          "beds": 365,
+          "type": "Government"
+        },
+        {
+          "name": "Domkal Sub Divisional and Super Speciality Hospital, Domkal, Murshidabad",
+          "city": "West Bengal-742303",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Dr BC Roy Post Graduate Institute of Paediatric Sciences, Kolkata",
+          "city": "West Bengal-700054",
+          "beds": 600,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital, Alipurduar",
+          "city": "West Bengal-736121",
+          "beds": 402,
+          "type": "Government"
+        },
+        {
+          "name": "Balurghat DH and SSH, Balurghat",
+          "city": "West Bengal-733103",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Medical College, Kolkata",
+          "city": "West Bengal-700073",
+          "beds": 2209,
+          "type": "Private"
+        },
+        {
+          "name": "Chandannagar Sub Division Hospital, Hooghly",
+          "city": "West Bengal-712136",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "District Hospital, Darjeeling",
+          "city": "West Bengal-734101",
+          "beds": 0,
+          "type": "Government"
+        },
+        {
+          "name": "Ranaghat Sub Division Hospital, Anulia, West Bengal",
+          "city": "West Bengal-741255",
+          "beds": 250,
+          "type": "Private"
+        },
+        {
+          "name": "Sree Balaram Seva Mandir SG Hospital, Khardah",
+          "city": "West Bengal-700116",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Bolpur Sub Division Hospital, Birbhum",
+          "city": "West Bengal-731204",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Kalna SD and SS Hospital, Purba Bardhaman",
+          "city": "West Bengal-713409",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Dr BN Bose Sub Divisional Hospital, Barrackpore",
+          "city": "West Bengal-700123",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Vidyasagar State General Hospital, Kolkata",
+          "city": "West Bengal-700034",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Jangipur SD Hospital, Murshidabad",
+          "city": "West Bengal-742225",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Lalbagh Sub Division Hospital, Lalbagh, Murshidabad",
+          "city": "West Bengal-742149",
+          "beds": 0,
+          "type": "Private"
+        },
+        {
+          "name": "Islampur SDH-ISSH, Sukantapally",
+          "city": "West Bengal-733202",
+          "beds": 0,
           "type": "Private"
         }
       ]

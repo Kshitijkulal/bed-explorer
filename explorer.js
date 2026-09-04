@@ -5,6 +5,7 @@
     let currentState = null;
     let currentSort = { key: 'beds', dir: 'desc' };
     let searchQuery = '';
+    let currentTypeFilter = 'all';
 
     // ─── Init ───
     async function init() {
@@ -72,6 +73,38 @@
         if (form) {
             form.addEventListener('submit', handleFormSubmit);
         }
+
+        // Type filter pills
+        const filterBar = document.getElementById('type-filter-bar');
+        if (filterBar) {
+            filterBar.addEventListener('click', function (e) {
+                const pill = e.target.closest('.filter-pill');
+                if (!pill) return;
+                filterBar.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+                pill.classList.add('active');
+                currentTypeFilter = pill.dataset.type || 'all';
+                renderTable();
+            });
+        }
+
+        // Accordion
+        const accordion = document.getElementById('accordion');
+        if (accordion) {
+            accordion.addEventListener('click', function (e) {
+                const trigger = e.target.closest('.accordion-trigger');
+                if (!trigger) return;
+                const item = trigger.parentElement;
+                const isOpen = item.classList.contains('open');
+                accordion.querySelectorAll('.accordion-item').forEach(i => {
+                    i.classList.remove('open');
+                    i.querySelector('.accordion-trigger').setAttribute('aria-expanded', 'false');
+                });
+                if (!isOpen) {
+                    item.classList.add('open');
+                    trigger.setAttribute('aria-expanded', 'true');
+                }
+            });
+        }
     }
 
     // ─── Render Results ───
@@ -112,6 +145,15 @@
             );
         }
 
+        // Filter by type pill
+        if (currentTypeFilter === 'most-beds') {
+            // sort handled below, no type filter
+        } else if (currentTypeFilter === 'fewest-beds') {
+            // sort handled below, no type filter
+        } else if (currentTypeFilter !== 'all') {
+            colleges = colleges.filter(c => c.type.toLowerCase() === currentTypeFilter);
+        }
+
         // Sort
         colleges.sort((a, b) => {
             let valA, valB;
@@ -138,6 +180,14 @@
             if (valA > valB) return currentSort.dir === 'asc' ? 1 : -1;
             return 0;
         });
+
+        // Sort overrides for pill-based sorts
+        if (currentTypeFilter === 'most-beds') {
+            colleges.sort((a, b) => b.beds - a.beds);
+        } else if (currentTypeFilter === 'fewest-beds') {
+            colleges.sort((a, b) => a.beds - b.beds);
+        }
+
 
         // Update sort icons
         document.querySelectorAll('.college-table th[data-sort]').forEach(th => {

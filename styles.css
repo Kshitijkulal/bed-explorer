@@ -832,3 +832,177 @@ a { color: inherit; }
         font-size: 1.8rem;
     }
 }
+
+/* ─── Trust Bar ─── */
+.trust-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0 8px;
+    margin: 20px 0 28px;
+    font-size: 0.82rem;
+    color: var(--ink-3);
+}
+
+.trust-item {
+    white-space: nowrap;
+}
+
+.trust-item strong {
+    color: var(--ink);
+    font-weight: 700;
+}
+
+.trust-separator {
+    color: var(--hairline-2);
+    font-weight: 300;
+}
+
+@media (max-width: 600px) {
+    .trust-bar {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .trust-separator {
+        display: none;
+    }
+}
+
+/* ─── Filter Section ─── */
+.filter-section {
+    background: var(--white);
+    border-bottom: 1px solid var(--hairline);
+    padding: 16px 0;
+}
+
+/* ─── Filter Pills ─── */
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.filter-pill {
+    font-family: var(--font);
+    font-size: 0.76rem;
+    font-weight: 500;
+    color: var(--ink-3);
+    background: var(--white);
+    border: 1px solid var(--hairline);
+    padding: 6px 14px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+    line-height: 1.4;
+}
+
+.filter-pill:hover {
+    border-color: var(--brand);
+    color: var(--brand-dark);
+}
+
+.filter-pill.active {
+    background: var(--brand-dim);
+    border-color: var(--brand);
+    color: var(--brand-dark);
+    font-weight: 600;
+}
+
+/* ─── Accordion Section ─── */
+.accordion-section {
+    padding: 56px 0;
+    background: var(--surface);
+    border-top: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--hairline);
+}
+
+.accordion-section h2 {
+    font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin-bottom: 32px;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background: var(--white);
+}
+
+.accordion-item {
+    border-bottom: 1px solid var(--hairline);
+}
+
+.accordion-item:last-child {
+    border-bottom: none;
+}
+
+.accordion-trigger {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--ink);
+    text-align: left;
+    transition: background 0.1s;
+}
+
+.accordion-trigger:hover {
+    background: var(--surface);
+}
+
+.accordion-trigger[aria-expanded="true"] {
+    color: var(--brand-dark);
+}
+
+.accordion-icon {
+    flex-shrink: 0;
+    color: var(--ink-4);
+    transition: transform 0.2s ease;
+}
+
+.accordion-item.open .accordion-icon {
+    transform: rotate(180deg);
+    color: var(--brand-dark);
+}
+
+.accordion-content {
+    display: none;
+    padding: 0 24px 20px;
+    border-top: 1px solid var(--hairline);
+}
+
+.accordion-item.open .accordion-content {
+    display: block;
+    animation: fadeInUp 0.2s ease;
+}
+
+.accordion-content p {
+    font-size: 0.875rem;
+    color: var(--ink-3);
+    line-height: 1.75;
+    margin-bottom: 12px;
+}
+
+.accordion-content p:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-content strong {
+    color: var(--ink);
+    font-weight: 600;
+}

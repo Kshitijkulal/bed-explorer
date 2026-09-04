@@ -233,6 +233,19 @@ a { color: inherit; }
     box-shadow: 0 0 0 2px var(--brand-dim);
 }
 
+.selector-input-group {
+    display: flex;
+    gap: 12px;
+}
+
+.selector-input-group select {
+    flex-grow: 1;
+}
+
+.selector-input-group .cta-primary {
+    margin-top: 0;
+}
+
 /* ─── Results Section ─── */
 .results-section {
     padding: 64px 0 80px;

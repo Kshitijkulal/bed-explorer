@@ -33,8 +33,8 @@
     // ─── Bind Events ───
     function bindEvents() {
         // State selection
-        document.getElementById('state-select').addEventListener('change', function () {
-            const stateId = this.value;
+        document.getElementById('show-data-btn').addEventListener('click', function () {
+            const stateId = document.getElementById('state-select').value;
             if (!stateId) return;
             currentState = bedData.states.find(s => s.id === stateId);
             if (!currentState) return;

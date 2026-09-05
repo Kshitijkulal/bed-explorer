@@ -224,6 +224,7 @@
 
         tbody.innerHTML = colleges.map(c => {
             const typeClass = c.type.toLowerCase();
+            const bedDisplay = c.beds === 0 ? '<span class="data-pending">Data Under Verification</span>' : c.beds.toLocaleString('en-IN');
             return `<tr>
                 <td>
                     <div class="college-name">${c.name}</div>
@@ -235,7 +236,7 @@
                     <span class="college-type ${typeClass}">${c.type}</span>
                 </td>
                 <td>
-                    <span class="bed-count">${c.beds.toLocaleString('en-IN')}</span>
+                    <span class="bed-count">${bedDisplay}</span>
                 </td>
             </tr>`;
         }).join('');

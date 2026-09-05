@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=2.0">
+    <link rel="stylesheet" href="styles.css?v=7.0">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -108,23 +108,12 @@
                     <select id="state-select">
                         <option value="">Select a state</option>
                     </select>
-                    <button id="show-data-btn" class="cta-primary">Show Data</button>
+                    <button id="show-data-btn" class="pill-btn">
+                        Show Data
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                    <a href="#advisory" class="counselling-link">Get Free Counselling</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- TYPE FILTER PILLS -->
-    <section class="filter-section" id="filter-bar-section" aria-label="Filter by college type">
-        <div class="container">
-            <div class="filter-bar" id="type-filter-bar" role="group" aria-label="Filter by college type">
-                <button class="filter-pill active" data-type="all">All Colleges</button>
-                <button class="filter-pill" data-type="government">Government</button>
-                <button class="filter-pill" data-type="private">Private</button>
-                <button class="filter-pill" data-type="deemed">Deemed</button>
-                <button class="filter-pill" data-type="central">Central</button>
-                <button class="filter-pill" data-type="most-beds">Most Beds</button>
-                <button class="filter-pill" data-type="fewest-beds">Fewest Beds</button>
             </div>
         </div>
     </section>
@@ -155,6 +144,17 @@
                     <div class="summary-stat-label">Private / Deemed</div>
                     <div class="summary-stat-value" id="stat-private">0</div>
                 </div>
+            </div>
+
+            <!-- Filter Pills -->
+            <div class="filter-bar" id="type-filter-bar" role="group" aria-label="Filter by college type">
+                <button class="filter-pill active" data-type="all">All Colleges</button>
+                <button class="filter-pill" data-type="government">Government</button>
+                <button class="filter-pill" data-type="private">Private</button>
+                <button class="filter-pill" data-type="deemed">Deemed</button>
+                <button class="filter-pill" data-type="central">Central</button>
+                <button class="filter-pill" data-type="most-beds">Most Beds</button>
+                <button class="filter-pill" data-type="fewest-beds">Fewest Beds</button>
             </div>
 
             <!-- Search -->
@@ -253,6 +253,31 @@
         </div>
     </section>
 
+    <!-- WHY BED COUNTS MISLEAD -->
+    <section class="understanding-section" id="understanding">
+        <div class="container">
+            <h2>Why bed counts mislead most families</h2>
+            <p class="understanding-sub">Most families compare raw bed numbers. These are the factors that actually determine clinical training quality.</p>
+            <div class="understanding-grid">
+                <div class="understanding-item">
+                    <div class="understanding-stat">300 – 750</div>
+                    <div class="understanding-stat-label">NMC minimum beds per intake</div>
+                    <p>NMC mandates <strong>300 beds for 100 MBBS seats</strong>, 500 beds for 150 seats, and 750 beds for 250 seats. Colleges that barely meet the minimum are fundamentally different from those with 1,500+ beds — yet both are "NMC approved." A college scraping by at 300 beds offers dramatically less patient exposure than one with genuine clinical throughput.</p>
+                </div>
+                <div class="understanding-item">
+                    <div class="understanding-stat">60 – 80%</div>
+                    <div class="understanding-stat-label">Occupancy rate matters more than count</div>
+                    <p>NMC requires 60–80% average bed occupancy during inspections. A private college with <strong>1,000 sanctioned beds but 200 patients/day</strong> offers far less clinical exposure than a government hospital with 600 beds running at full capacity. Always ask about occupancy rates — the number on paper and the number in practice are often wildly different.</p>
+                </div>
+                <div class="understanding-item">
+                    <div class="understanding-stat">5:1 – 20:1</div>
+                    <div class="understanding-stat-label">Bed-to-student ratio across colleges</div>
+                    <p>A college with 1,500 beds and 250 students (6:1 ratio) gives each student far more hands-on exposure than one with 750 beds and 150 students (5:1). But some colleges inflate intake without proportional bed expansion, pushing ratios to <strong>20:1 or worse</strong>. Our counsellors assess bed-to-student ratios, case diversity, and faculty strength — not just the headline number.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ADVISORY / CTA -->
     <section class="advisory-section" id="advisory" aria-label="Medical college admission counselling from Career Plan B">
         <div class="container">
@@ -337,6 +362,6 @@
         </div>
     </footer>
 
-    <script src="explorer.js?v=2.0"></script>
+    <script src="explorer.js?v=7.0"></script>
 </body>
 </html>

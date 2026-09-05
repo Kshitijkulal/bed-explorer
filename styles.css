@@ -296,15 +296,62 @@ a:hover {
 
 .selector-input-group {
     display: flex;
-    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
 
 .selector-input-group select {
-    flex-grow: 1;
+    width: 100%;
 }
 
-.selector-input-group .cta-primary {
-    margin-top: 0;
+.pill-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    margin-top: 4px;
+    font-family: var(--font);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--white);
+    background: var(--brand);
+    border: none;
+    padding: 16px 32px;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px -5px rgba(34, 197, 94, 0.4), 0 8px 10px -6px rgba(34, 197, 94, 0.1);
+    transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
+}
+
+.pill-btn:hover {
+    background: var(--brand-dark);
+    box-shadow: 0 12px 28px -5px rgba(34, 197, 94, 0.5), 0 8px 10px -6px rgba(34, 197, 94, 0.2);
+    transform: translateY(-1px);
+}
+
+.pill-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+}
+
+.pill-btn svg {
+    flex-shrink: 0;
+}
+
+.counselling-link {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--brand);
+    text-decoration: none;
+    margin-top: 4px;
+    transition: color 0.15s;
+}
+
+.counselling-link:hover {
+    color: var(--brand-dark);
+    text-decoration: underline;
 }
 
 /* ─── Results Section ─── */
@@ -577,6 +624,16 @@ a:hover {
     font-variant-numeric: tabular-nums;
 }
 
+.data-pending {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--ink-4);
+    font-style: italic;
+    background: var(--surface);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
 /* Empty state */
 .empty-state {
     text-align: center;
@@ -593,11 +650,11 @@ a:hover {
     font-size: 0.875rem;
 }
 
-/* ─── Accordion Section (matches bond explorer exactly) ─── */
+/* ─── Accordion Section (dark green cards — matches MBBS True Cost Calculator) ─── */
 .accordion-section {
     padding: 80px 0;
     background: var(--white);
-    border-top: 1px solid var(--hairline);
+    border-top: none;
 }
 
 .accordion-section h2 {
@@ -605,15 +662,28 @@ a:hover {
     font-weight: 700;
     letter-spacing: -0.02em;
     color: var(--ink);
-    margin-bottom: 32px;
+    margin-bottom: 28px;
+    text-align: center;
 }
 
 .accordion {
-    border-top: 1px solid var(--hairline);
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 760px;
+    margin: 0 auto;
 }
 
 .accordion-item {
-    border-bottom: 1px solid var(--hairline);
+    background: var(--brand-dark-bg);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.accordion-item.open {
+    background: var(--white);
+    border: 1px solid var(--hairline);
 }
 
 .accordion-trigger {
@@ -621,48 +691,40 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 0;
-    background: none;
+    padding: 20px 24px;
+    background: var(--brand-dark-bg);
     border: none;
-    color: var(--ink);
+    color: var(--white);
     font-family: var(--font);
-    font-size: 0.92rem;
+    font-size: 0.95rem;
     font-weight: 600;
     cursor: pointer;
     text-align: left;
     gap: 16px;
-    transition: color 0.15s;
-}
-
-.accordion-trigger:hover {
-    color: var(--brand-dark);
 }
 
 .accordion-icon {
-    color: var(--ink-4);
+    color: rgba(255, 255, 255, 0.8);
     flex-shrink: 0;
     transition: transform 0.25s ease;
 }
 
-.accordion-item.open .accordion-trigger {
-    color: var(--brand-dark);
-}
-
 .accordion-item.open .accordion-icon {
     transform: rotate(180deg);
+    color: var(--ink-4);
 }
 
 .accordion-content {
     display: none;
-    padding: 0 0 22px;
-    color: var(--ink-3);
-    font-size: 0.875rem;
-    line-height: 1.75;
+    padding: 24px;
+    background: var(--white);
+    color: var(--ink-2);
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 .accordion-item.open .accordion-content {
     display: block;
-    animation: fadeIn 0.2s ease;
 }
 
 @keyframes fadeIn {
@@ -681,6 +743,61 @@ a:hover {
 .accordion-content strong {
     color: var(--ink);
     font-weight: 600;
+}
+
+/* ─── Understanding / Why Beds Mislead ─── */
+.understanding-section {
+    padding: 80px 0;
+    background: var(--brand-dark-bg);
+    border-top: none;
+}
+
+.understanding-section h2 {
+    font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--white);
+    margin-bottom: 8px;
+}
+
+.understanding-sub {
+    font-size: 0.92rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 44px;
+}
+
+.understanding-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.understanding-stat {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.understanding-stat-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--brand);
+    margin-bottom: 16px;
+}
+
+.understanding-item p {
+    font-size: 0.875rem;
+    line-height: 1.75;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.understanding-item p strong {
+    color: var(--white);
 }
 
 /* ─── Advisory / CTA ─── */
@@ -956,11 +1073,28 @@ a:hover {
         text-align: center;
         white-space: nowrap;
     }
+    .understanding-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    }
 }
 
 @media (max-width: 768px) {
     .page-header {
         padding: 48px 0 36px;
+    }
+
+    .accordion-item {
+        border-radius: var(--radius-lg);
+    }
+
+    .accordion-trigger {
+        padding: 14px 20px;
+        font-size: 0.82rem;
+    }
+
+    .accordion-content {
+        padding: 0 20px 18px;
     }
 
     .advisory-content {
@@ -1007,6 +1141,10 @@ a:hover {
 
     .page-header h1 {
         font-size: 1.8rem;
+    }
+
+    .understanding-grid {
+        grid-template-columns: 1fr;
     }
 
     .selector-input-group {
